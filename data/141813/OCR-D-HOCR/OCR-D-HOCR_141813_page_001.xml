@@ -1,0 +1,24 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 1166 1654; image 'image/images/141813_page_001.tif';">
+         <div class="ocr_carea" title="bbox 168 110 759 323">
+            <p class="ocr_par" title="bbox 168 110 759 323"><span class="ocr_line" title="bbox 168 110 441 143"><span class="ocrx_word" title="bbox 168 110 297 143"></span><span class="ocrx_word" title="bbox 297 114 349 139"></span><span class="ocrx_word" title="bbox 348 110 441 139"></span>Versenden von Waren.</span><span class="ocr_line" title="bbox 168 148 759 190"><span class="ocrx_word" title="bbox 168 155 325 190"></span><span class="ocrx_word" title="bbox 323 158 375 183"></span><span class="ocrx_word" title="bbox 376 154 548 186"></span><span class="ocrx_word" title="bbox 546 152 599 180"></span><span class="ocrx_word" title="bbox 600 150 759 184"></span>Ausgestalten von Schaufenstern und Schaukästen.</span><span class="ocr_line" title="bbox 171 194 593 231"><span class="ocrx_word" title="bbox 171 196 291 231"></span><span class="ocrx_word" title="bbox 290 200 322 227"></span><span class="ocrx_word" title="bbox 322 195 405 227"></span><span class="ocrx_word" title="bbox 406 198 458 226"></span><span class="ocrx_word" title="bbox 458 195 593 229"></span>Schreiben in Block- und Zierschrift.</span><span class="ocr_line" title="bbox 170 243 400 276"><span class="ocrx_word" title="bbox 170 243 400 276"></span>Maschineschreiben.</span><span class="ocr_line" title="bbox 170 282 703 323"><span class="ocrx_word" title="bbox 170 285 262 323"></span><span class="ocrx_word" title="bbox 262 288 315 316"></span><span class="ocrx_word" title="bbox 316 283 487 319"></span><span class="ocrx_word" title="bbox 488 286 533 314"></span><span class="ocrx_word" title="bbox 533 282 703 319"></span>Pflegen und Instandhalten der Arbeitsgeräte.</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 170 355 332 388">
+            <p class="ocr_par" title="bbox 170 355 332 388"><span class="ocr_line" title="bbox 170 355 332 388"><span class="ocrx_word" title="bbox 170 355 332 388"></span>Erwünsehte:</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 172 405 474 439">
+            <p class="ocr_par" title="bbox 172 405 474 439"><span class="ocr_line" title="bbox 172 405 474 439"><span class="ocrx_word" title="bbox 172 408 283 439"></span><span class="ocrx_word" title="bbox 283 406 328 435"></span><span class="ocrx_word" title="bbox 331 405 474 439"></span>Erlernen der Stenografie.</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 489 1387 737 1420">
+            <p class="ocr_par" title="bbox 489 1387 737 1420"><span class="ocr_line" title="bbox 489 1387 737 1420"><span class="ocrx_word" title="bbox 489 1389 551 1420"></span><span class="ocrx_word" title="bbox 551 1393 594 1415"></span><span class="ocrx_word" title="bbox 595 1388 625 1414"></span><span class="ocrx_word" title="bbox 623 1391 689 1415"></span><span class="ocrx_word" title="bbox 688 1387 737 1418"></span>(Stand vom 18, Januar 1940}</span></p>
+         </div>
+      </div>
+   </body>
+</html>

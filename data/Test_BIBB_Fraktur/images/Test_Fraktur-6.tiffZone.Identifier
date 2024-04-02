@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/0eae8531-c169-44bc-b3de-cb9b384e7766/Test_BIBB_Fraktur_OCR-7.tiff?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240228%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240228T072736Z&X-Amz-Expires=86400&X-Amz-Signature=7b886390f731074af0f1bc38e6c1185381a68d1f7af91537293eb4b8f1e56e89&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Test_BIBB_Fraktur_OCR-7.tiff%22&response-content-type=image%2Ftiff&x-id=GetObject

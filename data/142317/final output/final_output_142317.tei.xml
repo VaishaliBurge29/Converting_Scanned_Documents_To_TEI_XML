@@ -1,0 +1,67 @@
+
+<TEI>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>BERUFSAUSBILDUNG IN DER INDUSTRIEJugendlichen-Ausbildung</title>
+        <author>
+          <orgName>B.G.Teubner</orgName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publPlace>Leipzig and Berlin</publPlace>
+        <date>17. Februar 1942</date>
+      </publicationStmt>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <!-- Heading -->
+        <head>Prüfungsanforderungen</head>
+        <!-- Subtext -->
+        <head>für den Anlernberuf</head>
+        <!-- Heading -->
+        <head>: Asphaltierer</head>
+        <p>bearbeitet vom</p>
+        <p>Reichsinstitut für Berufsausbildung in Handel und GewerbeGemeinschaftsorgan der Organisation der gewerblichen Wirtschaftund der Deutschen Arheitsfront</p>
+        <p>Am 27. April 1942 als industrieller Anlernberuf anerkanntdurch die Reichsgruppe Industrie und dieArbeitsgemeinschaft der Industrie- und Handelskammernin der Reichswirtschaftskammer</p>
+        <p>Stand vom 17. Februar 1942</p>
+        <p>Verlag und Druck von B.G.Teubner in Leipzig und Berlin</p>
+        <p>Beot.-Nr, P 616.11</p>
+      </div>
+      <div>
+        <p>Berufsbild des Asphaltierers(für die betriebliche Ausbildung)Ausbildungszeit: 2 Jahre, abschließend spätestens mit dem 18. Lebensjahr</p>
+        <!-- Heading -->
+        <head>Arbeitsgebiete des Asphaliierers:</head>
+        <p>Aufbereiten von Mastix- und Gußasphalt.Verarbeiten dieser Massen im Straßenbau.Einfache Betonarbeiten beim Straßenbau.Pflegen und Instandhalten der Arbeitsgeräte und Maschinen.</p>
+        <!-- Heading -->
+        <head>Fertigkeiten und Kenntnisse, die in der Ausbildungszeit zu ver-mitteln sind .</head>
+        <p>Kenntnisse, die mit dem Erlernen der nachstehend genannten Fertigkeitenzwangsläufig verbunden und Voraussetzung für die richtige Anwendung derFertigkeiten sind, werden hier nicht gesondert aufgeführt. Dies bezieht sichauch auf die mit der Berufstätigkeit zusammenhängenden Arbeitsschutz-bestimmungen (z. B. gewerbepolizeiliche Bestimmungen, Berufsgenossen-schaftsvorschriften, Jugendschutzgesetz). Alle erforderlichen Kenntnissewerden ebenso wie der Umfang der Fertigkeiten im Berufsbildungsplan aus-führlich erläutert. “ .</p>
+        <p>Fluchten, Tafeln und Profilieren.Vorbereiten der Untergrundflächen.Aufbereiten, Einbauen und Pflegen von Unterbeton.Herstellen des Voranstrichs.</p>
+        <p>Zumessen und Aufbereiten der Asphaltmasse und Überwachen der Tempe-raturen. .</p>
+        <p>Handhaben der Asphalt-, Betongeräte und -maschinen.</p>
+        <p>Abfüllen, Vorlegen und Spachteln von Asphaltmassen in einer und mehre-ren Lagen. :</p>
+        <p>Abreiben, Aufrauhen und Riffeln.Behandeln der Arbeits- und Anschlußnähte</p>
+        <p>Verarbeiten von Binderunterlagen.</p>
+      </div>
+      <div>
+        <p>Herstellen von Fugen.Vergießen von Fugen.Beseitigen einfacher Deckenschäden.Nachprüfen des Profils mit einfachen Meßgeräten.Aufbrechen von Beton und Asphalt.Pflegen und Instandhalten der Arbeitsgeräte und Maschinen.</p>
+        <!-- Sub-heading -->
+        <head>Erwünschte:</head>
+        <p>Verlegen von Teer- und Asphaltplatten.</p>
+        <p>Untergießen von Schienen.</p>
+      </div>
+      <div>
+        <!-- Heading -->
+        <head>2. Fachrechnen</head>
+        <p>Es sind auf das Fachgebiet abgestellte Aufgaben, die nur die Grundrech-nungsarten umfassen, zu stellen.</p>
+        <!-- Heading -->
+        <head>3. Reichskunde</head>
+        <p>Der Prüfling hat einfache Fragen aus einigen der nachstehenden Gebietezu beantworten: Rassenkunde, Wirtschaftskunde, Arbeitsrecht, Sozial-versicherung, Unfallverhütung.</p>
+        <p>Die mündliche Prüfung ist nicht nur Ergänzung zu den Ergebnissen der(rraktischen und schriftlichen Prüfung. Sie soll, wenn sie auch im all-gemeinen von der Prüfungsarbeit oder von der schriftlichen Arbeit ausgeht,sich nicht nur hierauf beschränken, sondern dem Prüfenden Gelegenheitgeben, den Prüfling beruflich und menschlich kennenzulernen.</p>
+        <p>Hierbei ist auch von den Eintragungen im Berichtsheft sowie von denNiederschriften im Berufsschulunterricht auszugehen.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

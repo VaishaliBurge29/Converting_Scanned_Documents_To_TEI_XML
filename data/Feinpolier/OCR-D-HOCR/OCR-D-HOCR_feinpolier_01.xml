@@ -1,0 +1,30 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 827 1170; image 'image/images/feinpolier_01.tif';">
+         <div class="ocr_carea" title="bbox 68 78 474 189">
+            <p class="ocr_par" title="bbox 68 78 474 189"><span class="ocr_line" title="bbox 177 78 366 131"><span class="ocrx_word" title="bbox 177 78 366 131"></span>Induſtrie-</span><span class="ocr_line" title="bbox 68 135 474 189"><span class="ocrx_word" title="bbox 68 135 474 189"></span>Facharbeiterprüfungen</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 66 251 472 322">
+            <p class="ocr_par" title="bbox 66 251 472 322"><span class="ocr_line" title="bbox 123 251 417 286"><span class="ocrx_word" title="bbox 123 251 417 286"></span>Prüfungsanforderungen</span><span class="ocr_line" title="bbox 66 284 472 322"><span class="ocrx_word" title="bbox 66 287 109 320"></span><span class="ocrx_word" title="bbox 107 284 253 322"></span><span class="ocrx_word" title="bbox 251 284 472 322"></span>für Feinpolierer (Feinpoliererinnen)</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 224 355 315 382">
+            <p class="ocr_par" title="bbox 224 355 315 382"><span class="ocr_line" title="bbox 224 355 315 382"><span class="ocrx_word" title="bbox 224 355 285 378"></span><span class="ocrx_word" title="bbox 283 358 315 378"></span>bearbeitet vom</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 77 378 460 423">
+            <p class="ocr_par" title="bbox 77 378 460 423"><span class="ocr_line" title="bbox 77 378 460 404"><span class="ocrx_word" title="bbox 77 379 140 404"></span><span class="ocrx_word" title="bbox 139 379 202 404"></span><span class="ocrx_word" title="bbox 201 379 227 404"></span><span class="ocrx_word" title="bbox 224 378 297 404"></span><span class="ocrx_word" title="bbox 295 382 368 404"></span><span class="ocrx_word" title="bbox 366 379 405 402"></span><span class="ocrx_word" title="bbox 403 382 460 404"></span>Deutſchen Ausſchußÿ für Techniſches Schultveſeu E. V. CDaifh)</span><span class="ocr_line" title="bbox 226 400 313 423"><span class="ocrx_word" title="bbox 226 400 272 423"></span><span class="ocrx_word" title="bbox 270 400 300 423"></span><span class="ocrx_word" title="bbox 298 404 313 423"></span>Berlin NW 7</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 100 427 441 552">
+            <p class="ocr_par" title="bbox 100 427 441 552"><span class="ocr_line" title="bbox 217 427 320 453"><span class="ocrx_word" title="bbox 217 435 240 450"></span><span class="ocrx_word" title="bbox 238 427 297 453"></span><span class="ocrx_word" title="bbox 296 430 320 450"></span>im Auftrage ber-</span><span class="ocr_line" title="bbox 199 451 338 476"><span class="ocrx_word" title="bbox 199 455 280 476"></span><span class="ocrx_word" title="bbox 278 451 338 476"></span>Relchogruppe Inhuſtrie</span><span class="ocr_line" title="bbox 243 475 295 498"><span class="ocrx_word" title="bbox 243 479 271 498"></span><span class="ocrx_word" title="bbox 270 479 295 498"></span>unb ber</span><span class="ocr_line" title="bbox 100 501 441 529"><span class="ocrx_word" title="bbox 100 501 219 526"></span><span class="ocrx_word" title="bbox 218 505 243 524"></span><span class="ocrx_word" title="bbox 241 502 306 526"></span><span class="ocrx_word" title="bbox 304 506 333 525"></span><span class="ocrx_word" title="bbox 331 504 441 529"></span>Arbeitsgemeinſchaft der Induſtzies unb Ganbelstaninem,</span><span class="ocr_line" title="bbox 169 525 366 552"><span class="ocrx_word" title="bbox 169 528 188 548"></span><span class="ocrx_word" title="bbox 189 529 214 548"></span><span class="ocrx_word" title="bbox 216 528 366 552"></span>in dex Reichéwirtſchaftäkärmet</span></p>
+         </div>
+         <div class="cr_carea" title="bbox 57 474 509 780">
+            <p class="ocr_par" title="bbox 57 474 509 780"></p>
+         </div>
+      </div>
+   </body>
+</html>

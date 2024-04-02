@@ -1,0 +1,63 @@
+
+<TEI>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Berufsausbildung in der Industriejugendlichen-Ausbildung</title>
+        <author>
+          <orgName>B. G. Teubner</orgName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publPlace>Leipzig and Berlin</publPlace>
+        <date>4. Juni 1940</date>
+      </publicationStmt>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <!-- Heading -->
+        <head>Berufseignungsanforderungen</head>
+        <!-- Subtext -->
+        <head>für den Eintritt in den AnlernberufAutomatendreher</head>
+        <p>bearbeitet vomRèichginstitut für Berufsausbildung in Handel und Gewerbe</p>
+        <p>im Einvernehmenmit der</p>
+        <p>Deutschen Arbeitsfront</p>
+        <p>Im sinne der Erlassedes Reichswirtschaftsministers vom 13.2.1939 und 5, 7, 1939im Einvernehmen mit derArbeitsgemeinfchaft der Industrie- und Handelskammernin der Reichswirtschaftskammerfür die Ausbildung in der Industrieam 6. Juli 1940 anerkannt durch dieReichsgruppe Industrie</p>
+        <p>(stand vom 4. Juni 1940)</p>
+        <p>Verlag und Druck von B. G. Teubner in Leipzig und Berlin</p>
+        <p>Best.-Nr. 14625</p>
+      </div>
+      <div>
+        <!--Sub-heading -->
+        <head>Ausschließend: shwächliche Konstitution.</head>
+        <p>Lungentuberkulose (offene oder fortschreitende)und andere chronifch verlaufende Erkrankungender Lunge und der Luftwege.</p>
+        <p>Offene Gaumenspalte, behinderte Nasenatmung(stenosen).</p>
+        <p>Chronische Augenbindehaut- und Lidrandentzün-dungen.</p>
+        <p>xChronische, zu Rückfällen neigende Hauterkran-kungen oder Neigung dazu:Arbeit dauernd in Öl oder anderen Kühlmitteln.</p>
+        <p>Chronisches Magenleiden.</p>
+        <p>Chronische organische Nervenleiden mit Neigungzu schwindel: und Krampfanfällen einschl. Epi-lepsie oder Motilitätsstörungen.</p>
+        <p>MWirbelfäulenverfrümmung 2, oder 3, Grades,</p>
+        <p>Chronisch entzündliche Krampfadern mit Neigungzu Geshwürsbildung.</p>
+        <p>Chronische Gelenkerkranfkungen mit Bewegungs:einfchbräntungenandenoberenundunteren Glied:maßen.</p>
+        <p>Chronisch entzündlicher Knicks-, Platt:, spreizfuß.Einäugigfeit,</p>
+        <p>Brechungsfehler der Augen (durch Gläser nicht aus:gleichbar e).</p>
+        <p>Kurzsichtigkeit starken Grades, selbst bei Ausgleich.</p>
+        <p>schwerhörigkeit; Taubstummheit:</p>
+        <p>Fehlende Verständigung8möglichkeit im Betrieb. Unfall:gefahr.</p>
+        <p>Berfrüppelung der Arme, Hände, Beine oder Füße.</p>
+      </div>
+      <div>
+        <!--Heading -->
+        <head>Seelische Anforderungen</head>
+        <p>Notwendig: Hinreichendes Verständnis für technische Wirkungs8-zusammenhängez technifcheg Urteil:</p>
+        <p>Rasches Erfassen des Zusammenspiels der einzelnenMaschinen- und Apparateteile. Prüfen, Finden und Be-seitigen von Fehlern.</p>
+        <p>Rasche und sichere Reaktion:</p>
+        <p>Richtiges Einstellen und schalten der Maschinen. schnel-les Handeln bei störungen im Laufe der Maschine (meh-rere Arbeitsgänge laufen gleichzeitig abz es müssen meh-rere Maschinen überwacht werden). „Lange Leitung“ führtzur Beschädigung der Maschinen.</p>
+        <p>Umsichtige, gewissenhafte und zuverlässige Ar-beitsweise:Der Automat ift eine teuere Maschine. Abstellung bzw*Meldung auch der scheinbar kleinsten Fehler is notwendig-Bei größeren stückzahlen dauernde Überwachung derstücke auf Maßhaltigkeit und sauberkeit. Genauigkeitbeim Messen.</p>
+        <p>Ausschließend: Geringe geistige und praktische Wendigkeit.Flüchtige Arbeitsweife.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

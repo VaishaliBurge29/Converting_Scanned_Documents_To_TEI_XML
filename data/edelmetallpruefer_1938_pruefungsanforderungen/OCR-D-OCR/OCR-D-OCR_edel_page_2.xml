@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-OCR_edel_page_2">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.62.0</pc:Creator>
+        <pc:Created>2024-03-06T21:40:21.625119</pc:Created>
+        <pc:LastChange>2024-03-06T21:40:21.625119</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization" value="ocrd-preprocess-image">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="binarized" type="output_feature_added"/>
+                <pc:Label value="scribo-cli sauvola-ms-split @INFILE @OUTFILE --enable-negate-output" type="command"/>
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="" type="input_feature_selector"/>
+                <pc:Label value="" type="input_feature_filter"/>
+                <pc:Label value="image/png" type="input_mimetype"/>
+                <pc:Label value="image/png" type="output_mimetype"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.8" type="ocrd-preprocess-image"/>
+                <pc:Label value="2.62.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/cropping" value="ocrd-anybaseocr-crop">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0.005" type="marginTop"/>
+                <pc:Label value="0.995" type="marginBottom"/>
+                <pc:Label value="0.005" type="marginLeft"/>
+                <pc:Label value="0.995" type="marginRight"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="50.0" type="rulerRatioMax"/>
+                <pc:Label value="3.0" type="rulerRatioMin"/>
+                <pc:Label value="0.3" type="rulerAreaMax"/>
+                <pc:Label value="0.01" type="rulerAreaMin"/>
+                <pc:Label value="0.95" type="rulerWidthMax"/>
+                <pc:Label value="0.05" type="columnAreaMin"/>
+                <pc:Label value="0.04" type="columnSepWidthMax"/>
+                <pc:Label value="10" type="padding"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="1.9.0" type="ocrd-anybaseocr-crop"/>
+                <pc:Label value="2.62.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/despeckling" value="ocrd-skimage-denoise">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.0" type="protect"/>
+                <pc:Label value="1.0" type="maxsize"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.8" type="ocrd-skimage-denoise"/>
+                <pc:Label value="2.62.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/deskewing" value="ocrd-tesserocr-deskew">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="operation_level"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="1.5" type="min_orientation_confidence"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.17.0 (tesseract 5.3.4)" type="ocrd-tesserocr-deskew"/>
+                <pc:Label value="2.62.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="False" type="find_tables"/>
+                <pc:Label value="True" type="shrink_polygons"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="True" type="overwrite_segments"/>
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="none" type="textequiv_level"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.17.0 (tesseract 5.3.4)" type="ocrd-tesserocr-segment"/>
+                <pc:Label value="2.62.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/dewarping" value="ocrd-cis-ocropy-dewarp">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4.0" type="range"/>
+                <pc:Label value="1.0" type="smoothness"/>
+                <pc:Label value="0.05" type="max_neighbour"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-dewarp"/>
+                <pc:Label value="2.62.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="True" type="overwrite_segments"/>
+                <pc:Label value="Fraktur+Latin" type="model"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="word" type="segmentation_level"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.17.0 (tesseract 5.3.4)" type="ocrd-tesserocr-recognize"/>
+                <pc:Label value="2.62.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="images/edel_page_2.tiff" imageWidth="2132" imageHeight="3040" orientation="0." primaryScript="Latf - Latin (Fraktur variant)" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+        <pc:AlternativeImage filename="OCR-D-PREP/OCR-D-PREP_edel_page_2.IMG-BINARIZED.png" comments=",binarized"/>
+        <pc:AlternativeImage filename="OCR-D-CROP/OCR-D-CROP_edel_page_2.IMG-CROP.png" comments=",binarized,cropped"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE/OCR-D-BIN-DENOISE_edel_page_2.IMG-DEN.png" comments=",binarized,cropped,despeckled"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE-DESKEW/OCR-D-BIN-DENOISE-DESKEW_edel_page_2.IMG-DESKEW.png" comments=",binarized,cropped,despeckled,deskewed"/>
+        <pc:AlternativeImage filename="OCR-D-SEG1/OCR-D-SEG1_edel_page_2.IMG-BIN.png" comments=",binarized,cropped,despeckled,deskewed,binarized,clipped"/>
+        <pc:Border>
+            <pc:Coords points="279,237 1765,237 1765,2880 279,2880"/>
+        </pc:Border>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="6" regionRef="region0006"/>
+                <pc:RegionRefIndexed index="7" regionRef="region0007"/>
+                <pc:RegionRefIndexed index="8" regionRef="region0008"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="701,407 701,401 792,401 792,400 796,396 866,396 866,392 949,392 949,414 1125,414 1125,458 1123,458 1123,474 1119,478 1033,478 1033,505 961,505 961,508 885,508 883,506 879,510 796,510 796,515 744,515 744,479 676,479 676,480 672,484 627,484 627,486 578,486 578,492 501,492 501,526 497,530 448,530 444,526 444,498 319,498 319,649 444,649 444,637 501,637 501,659 582,659 582,635 586,631 632,631 636,627 676,627 676,644 744,644 744,625 802,625 803,626 807,622 883,622 883,647 964,647 964,619 968,615 1038,615 1038,614 1042,610 1123,610 1123,626 1278,626 1278,603 1364,603 1364,628 1448,628 1448,601 1452,597 1518,597 1518,596 1612,596 1612,484 1518,484 1516,484 1512,480 1508,484 1447,484 1447,489 1366,489 1364,487 1360,491 1278,491 1278,458 1133,458 1133,414 1129,410 1129,387 1133,383 1181,383 1181,380 1249,380 1249,349 1292,349 1292,304 1249,304 1249,276 1181,276 1181,245 1125,245 1125,248 949,248 949,280 945,284 866,284 866,262 789,262 789,293 704,293 701,290 701,260 576,260 576,407"/>
+            <pc:TextLine id="region0000_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0000_region0000_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="945,284 866,284 866,262 789,262 789,293 704,293 701,290 701,260 576,260 576,407 701,407 701,401 792,401 792,400 796,396 866,396 866,392 949,392 949,414 1129,414 1129,387 1133,383 1181,383 1181,380 1249,380 1249,349 1292,349 1292,304 1249,304 1249,276 1181,276 1181,245 1125,245 1125,248 949,248 949,280"/>
+                <pc:Word id="region0000_line0000_word0000">
+                    <pc:Coords points="945,284 866,284 866,262 789,262 789,293 704,293 701,290 701,260 576,260 576,407 701,407 701,401 792,401 792,400 796,396 866,396 866,392 949,392 949,414 1129,414 1129,387 1133,383 1181,383 1181,380 1249,380 1249,349 1292,349 1292,304 1249,304 1249,276 1181,276 1181,245 1125,245 1125,248 949,248 949,280"/>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0000">
+                        <pc:Coords points="576,260 701,260 701,407 576,407"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0001">
+                        <pc:Coords points="700,293 792,293 792,401 700,401"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0002">
+                        <pc:Coords points="789,262 866,262 866,396 789,396"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0003">
+                        <pc:Coords points="862,284 957,284 957,392 862,392"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0004">
+                        <pc:Coords points="949,248 1129,248 1129,414 949,414"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0005">
+                        <pc:Coords points="1125,245 1181,245 1181,383 1125,383"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0006">
+                        <pc:Coords points="1176,276 1249,276 1249,380 1176,380"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0000_word0000_glyph0007">
+                        <pc:Coords points="1242,304 1292,304 1292,349 1242,349"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.74">
+                    <pc:Unicode>áúInduſtrie-</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0000_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0000_region0000_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="578,486 578,492 501,492 501,526 497,530 448,530 444,526 444,498 319,498 319,649 444,649 444,637 501,637 501,659 582,659 582,635 586,631 632,631 632,627 636,627 676,627 676,644 744,644 744,625 802,625 803,625 803,622 807,622 883,622 883,647 964,647 964,619 964,615 968,615 1038,615 1038,614 1038,610 1042,610 1123,610 1123,626 1278,626 1278,603 1364,603 1364,628 1448,628 1448,601 1448,597 1452,597 1518,597 1518,596 1612,596 1612,484 1518,484 1516,484 1512,480 1508,484 1447,484 1447,485 1447,489 1443,489 1366,489 1364,487 1360,491 1278,491 1278,458 1133,458 1125,458 1123,458 1123,474 1119,478 1033,478 1033,501 1033,505 1029,505 962,505 961,505 961,508 957,508 885,508 883,506 879,510 796,510 796,511 796,515 792,515 744,515 744,479 676,479 676,480 672,484 629,484 627,484 627,486 623,486"/>
+                <pc:Word id="region0000_line0001_word0000">
+                    <pc:Coords points="578,486 578,492 501,492 501,526 497,530 448,530 444,526 444,498 319,498 319,649 444,649 444,637 501,637 501,659 582,659 582,635 586,631 632,631 632,627 636,627 676,627 676,644 744,644 744,625 802,625 803,625 803,622 807,622 883,622 883,647 964,647 964,619 964,615 968,615 1038,615 1038,614 1038,610 1042,610 1123,610 1123,626 1278,626 1278,603 1364,603 1364,628 1448,628 1448,601 1448,597 1452,597 1518,597 1518,596 1612,596 1612,484 1518,484 1516,484 1512,480 1508,484 1447,484 1447,485 1447,489 1443,489 1366,489 1364,487 1360,491 1278,491 1278,458 1133,458 1125,458 1123,458 1123,474 1119,478 1033,478 1033,501 1033,505 1029,505 962,505 961,505 961,508 957,508 885,508 883,506 879,510 796,510 796,511 796,515 792,515 744,515 744,479 676,479 676,480 672,484 629,484 627,484 627,486 623,486"/>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0000">
+                        <pc:Coords points="319,498 444,498 444,649 319,649"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0001">
+                        <pc:Coords points="444,530 509,530 509,637 444,637"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0002">
+                        <pc:Coords points="501,492 582,492 582,659 501,659"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0003">
+                        <pc:Coords points="578,486 632,486 632,631 578,631"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0004">
+                        <pc:Coords points="627,484 684,484 684,627 627,627"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0005">
+                        <pc:Coords points="676,479 744,479 744,644 676,644"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0006">
+                        <pc:Coords points="735,515 803,515 803,625 735,625"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0007">
+                        <pc:Coords points="796,510 889,510 889,622 796,622"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0008">
+                        <pc:Coords points="883,508 964,508 964,647 883,647"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0009">
+                        <pc:Coords points="961,505 1038,505 1038,615 961,615"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0010">
+                        <pc:Coords points="1033,478 1130,478 1130,610 1033,610"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0011">
+                        <pc:Coords points="1123,458 1278,458 1278,626 1123,626"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0012">
+                        <pc:Coords points="1271,491 1369,491 1369,603 1271,603"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0013">
+                        <pc:Coords points="1364,489 1448,489 1448,628 1364,628"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0014">
+                        <pc:Coords points="1447,484 1518,484 1518,597 1447,597"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0000_line0001_word0000_glyph0015">
+                        <pc:Coords points="1512,484 1612,484 1612,596 1512,596"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.91">
+                    <pc:Unicode>Gehilfenprüfungen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.825">
+                <pc:Unicode>áúInduſtrie-
+Gehilfenprüfungen</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0001" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="491,965 488,962 488,942 407,942 407,1050 484,1050 484,1081 472,1081 472,1180 514,1180 514,1168 568,1168 568,1169 614,1169 614,1107 643,1107 643,1170 724,1170 724,1087 729,1087 729,1167 778,1167 778,1104 779,1104 779,1168 823,1168 825,1170 829,1166 858,1166 858,1167 937,1167 937,1105 942,1105 942,1166 986,1166 988,1168 992,1164 1027,1164 1027,1166 1077,1166 1079,1168 1083,1164 1113,1164 1116,1167 1120,1163 1151,1163 1151,1179 1206,1179 1206,1163 1253,1163 1256,1166 1260,1162 1312,1162 1312,1173 1360,1173 1360,1162 1402,1162 1402,1161 1451,1161 1451,1092 1404,1092 1400,1088 1397,1091 1360,1091 1360,1069 1312,1069 1312,1075 1308,1079 1254,1079 1254,1095 1210,1095 1206,1091 1203,1094 1155,1094 1154,1093 1154,1073 1114,1073 1114,1075 1078,1075 1078,1097 1031,1097 1028,1094 1028,1087 983,1087 983,1098 943,1098 942,1097 937,1097 933,1101 862,1101 860,1099 860,1078 821,1078 821,1100 783,1100 779,1096 778,1096 778,1083 733,1083 729,1079 724,1079 724,1076 643,1076 643,1099 614,1099 610,1103 572,1103 568,1099 568,1090 515,1090 514,1089 514,1081 492,1081 492,1050 488,1046 488,1029 531,1029 533,1031 537,1027 586,1027 586,1036 630,1036 630,1029 634,1025 685,1025 686,1025 743,1025 743,1042 794,1042 794,1029 796,1029 800,1025 845,1025 895,1025 897,1027 901,1023 951,1023 951,1031 994,1031 994,956 996,956 996,1021 1044,1021 1044,1020 1092,1020 1092,957 1095,957 1095,1018 1145,1018 1145,953 1147,953 1147,1018 1193,1018 1193,1017 1238,1017 1240,1019 1244,1015 1299,1015 1299,1016 1360,1016 1360,1032 1414,1032 1414,950 1415,950 1415,1013 1462,1013 1462,1012 1522,1012 1522,944 1465,944 1461,940 1457,944 1417,944 1415,942 1414,942 1410,946 1364,946 1360,942 1356,946 1302,946 1299,943 1295,947 1238,947 1238,949 1193,949 1189,945 1185,949 1151,949 1147,945 1145,945 1145,933 1095,933 1095,949 1092,949 1088,953 1047,953 1043,949 1040,952 1000,952 996,948 994,948 994,932 951,932 951,952 947,956 896,956 896,957 849,957 845,953 845,950 796,950 796,1021 794,1021 794,959 747,959 743,955 739,959 689,959 686,956 686,925 625,925 625,938 586,938 586,945 582,949 532,949 532,965"/>
+            <pc:TextLine id="region0001_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0001_region0001_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="800,1025 845,1025 895,1025 897,1025 897,1023 901,1023 951,1023 951,1031 994,1031 994,956 996,956 996,1021 1044,1021 1044,1020 1090,1020 1092,1020 1092,1018 1095,1018 1099,1018 1145,1018 1145,953 1147,953 1147,1018 1193,1018 1193,1017 1238,1017 1240,1017 1240,1015 1244,1015 1299,1015 1299,1016 1360,1016 1360,1032 1414,1032 1414,950 1415,950 1415,1013 1462,1013 1462,1012 1522,1012 1522,944 1465,944 1461,940 1457,944 1417,944 1415,942 1414,942 1410,946 1364,946 1360,942 1356,946 1302,946 1299,943 1295,947 1240,947 1238,947 1238,949 1234,949 1193,949 1189,945 1185,949 1151,949 1147,945 1145,945 1145,933 1095,933 1095,949 1095,957 1095,1010 1092,1010 1092,957 1092,953 1088,953 1047,953 1043,949 1040,952 1000,952 996,948 994,948 994,932 951,932 951,952 947,956 899,956 896,956 896,957 892,957 849,957 845,953 845,950 796,950 796,955 796,963 796,1017 794,1017 794,963 794,959 790,959 747,959 743,955 739,959 689,959 686,956 686,925 625,925 625,934 625,938 621,938 586,938 586,945 582,949 532,949 532,965 491,965 488,962 488,942 407,942 407,1050 484,1050 488,1050 488,1046 488,1029 531,1029 533,1031 537,1027 586,1027 586,1036 630,1036 630,1029 630,1025 634,1025 685,1025 686,1025 743,1025 743,1042 794,1042 794,1029 794,1025 796,1025"/>
+                <pc:Word id="region0001_line0000_word0000">
+                    <pc:Coords points="796,1021 794,1021 794,1017 794,963 794,959 790,959 747,959 743,955 739,959 689,959 686,956 686,925 625,925 625,934 625,938 621,938 586,938 586,945 582,949 532,949 532,965 491,965 488,962 488,942 407,942 407,1050 484,1050 488,1050 488,1046 488,1029 531,1029 533,1031 537,1027 586,1027 586,1036 630,1036 630,1029 630,1025 634,1025 685,1025 686,1025 743,1025 743,1042 794,1042 794,1029 796,1029 800,1025 845,1025 895,1025 897,1025 897,1023 901,1023 951,1023 951,1031 994,1031 994,956 996,956 996,1021 1044,1021 1044,1020 1090,1020 1092,1020 1092,1018 1095,1018 1099,1018 1145,1018 1145,953 1147,953 1147,1018 1193,1018 1193,1017 1238,1017 1240,1017 1240,1015 1244,1015 1299,1015 1299,1016 1360,1016 1360,1032 1414,1032 1414,950 1415,950 1415,1013 1462,1013 1462,1012 1522,1012 1522,944 1465,944 1461,940 1457,944 1417,944 1415,942 1414,942 1410,946 1364,946 1360,942 1356,946 1302,946 1299,943 1295,947 1240,947 1238,947 1238,949 1234,949 1193,949 1189,945 1185,949 1151,949 1147,945 1145,945 1145,933 1095,933 1095,949 1095,957 1095,1010 1095,1014 1092,1014 1092,1010 1092,957 1092,953 1088,953 1047,953 1043,949 1040,952 1000,952 996,948 994,948 994,932 951,932 951,952 947,956 899,956 896,956 896,957 892,957 849,957 845,953 845,950 796,950 796,955 796,963 796,1017"/>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0000">
+                        <pc:Coords points="407,942 488,942 488,1050 407,1050"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0001">
+                        <pc:Coords points="487,965 533,965 533,1029 487,1029"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0002">
+                        <pc:Coords points="532,949 587,949 587,1027 532,1027"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0003">
+                        <pc:Coords points="586,938 630,938 630,1036 586,1036"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0004">
+                        <pc:Coords points="625,925 686,925 686,1025 625,1025"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0005">
+                        <pc:Coords points="685,959 743,959 743,1025 685,1025"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0006">
+                        <pc:Coords points="743,959 794,959 794,1042 743,1042"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0007">
+                        <pc:Coords points="796,950 845,950 845,1025 796,1025"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0008">
+                        <pc:Coords points="845,957 897,957 897,1025 845,1025"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0009">
+                        <pc:Coords points="896,956 955,956 955,1023 896,1023"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0010">
+                        <pc:Coords points="951,932 994,932 994,1031 951,1031"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0011">
+                        <pc:Coords points="996,952 1044,952 1044,1021 996,1021"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0012">
+                        <pc:Coords points="1043,953 1092,953 1092,1020 1043,1020"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0013">
+                        <pc:Coords points="1095,933 1145,933 1145,1018 1095,1018"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0014">
+                        <pc:Coords points="1147,949 1193,949 1193,1018 1147,1018"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0015">
+                        <pc:Coords points="1189,949 1240,949 1240,1017 1189,1017"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0016">
+                        <pc:Coords points="1238,947 1301,947 1301,1015 1238,1015"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0017">
+                        <pc:Coords points="1299,946 1360,946 1360,1016 1299,1016"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0018">
+                        <pc:Coords points="1360,946 1414,946 1414,1032 1360,1032"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0019">
+                        <pc:Coords points="1415,944 1462,944 1462,1013 1415,1013"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0000_word0000_glyph0020">
+                        <pc:Coords points="1461,944 1522,944 1522,1012 1461,1012"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.85">
+                    <pc:Unicode>Prüfungsanforderungen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0001_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0001_region0001_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="778,1167 778,1104 779,1104 779,1168 823,1168 825,1170 829,1166 858,1166 858,1167 937,1167 937,1105 942,1105 942,1166 986,1166 988,1166 988,1164 992,1164 1027,1164 1027,1166 1077,1166 1079,1166 1079,1164 1083,1164 1113,1164 1116,1164 1116,1163 1120,1163 1151,1163 1151,1179 1206,1179 1206,1163 1253,1163 1256,1163 1256,1162 1260,1162 1312,1162 1312,1173 1360,1173 1360,1162 1402,1162 1402,1161 1451,1161 1451,1092 1404,1092 1400,1088 1397,1091 1360,1091 1360,1069 1312,1069 1312,1075 1308,1079 1254,1079 1254,1091 1254,1095 1250,1095 1210,1095 1206,1091 1203,1094 1155,1094 1154,1093 1154,1073 1116,1073 1114,1073 1114,1075 1110,1075 1078,1075 1078,1093 1078,1097 1074,1097 1031,1097 1028,1094 1028,1087 983,1087 983,1094 983,1098 979,1098 943,1098 942,1097 937,1097 933,1101 862,1101 860,1099 860,1078 821,1078 821,1100 783,1100 779,1096 778,1096 778,1083 733,1083 729,1079 724,1079 724,1076 643,1076 643,1099 614,1099 610,1103 572,1103 568,1099 568,1090 515,1090 514,1089 514,1081 492,1081 484,1081 472,1081 472,1180 514,1180 514,1168 568,1168 568,1169 614,1169 614,1107 643,1107 643,1170 724,1170 724,1087 729,1087 729,1167"/>
+                <pc:Word id="region0001_line0001_word0000">
+                    <pc:Coords points="514,1089 514,1081 472,1081 472,1180 514,1180 514,1168 568,1168 568,1169 614,1169 614,1103 572,1103 568,1099 568,1090 515,1090"/>
+                    <pc:Glyph id="region0001_line0001_word0000_glyph0000">
+                        <pc:Coords points="472,1081 514,1081 514,1180 472,1180"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0000_glyph0001">
+                        <pc:Coords points="511,1090 568,1090 568,1168 511,1168"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0000_glyph0002">
+                        <pc:Coords points="568,1103 614,1103 614,1169 568,1169"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0001_line0001_word0001">
+                    <pc:Coords points="643,1099 643,1107 643,1170 724,1170 724,1087 729,1087 729,1167 778,1167 778,1104 779,1104 779,1168 823,1168 825,1170 829,1166 858,1166 858,1167 934,1167 937,1167 937,1166 942,1166 946,1166 986,1166 988,1166 988,1164 992,1164 1027,1164 1027,1166 1077,1166 1079,1166 1079,1164 1083,1164 1113,1164 1116,1164 1116,1163 1120,1163 1151,1163 1151,1179 1206,1179 1206,1163 1253,1163 1256,1163 1256,1162 1260,1162 1312,1162 1312,1173 1360,1173 1360,1162 1402,1162 1402,1161 1451,1161 1451,1092 1404,1092 1400,1088 1397,1091 1360,1091 1360,1069 1312,1069 1312,1075 1308,1079 1254,1079 1254,1091 1254,1095 1250,1095 1210,1095 1206,1091 1203,1094 1155,1094 1154,1093 1154,1073 1116,1073 1114,1073 1114,1075 1110,1075 1078,1075 1078,1093 1078,1097 1074,1097 1031,1097 1028,1094 1028,1087 983,1087 983,1094 983,1098 979,1098 943,1098 942,1098 942,1105 942,1158 937,1158 937,1105 937,1101 933,1101 862,1101 860,1099 860,1078 821,1078 821,1100 783,1100 779,1096 778,1096 778,1083 733,1083 729,1079 724,1079 724,1076 643,1076"/>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0000">
+                        <pc:Coords points="643,1076 724,1076 724,1170 643,1170"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0001">
+                        <pc:Coords points="729,1083 778,1083 778,1167 729,1167"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0002">
+                        <pc:Coords points="779,1100 825,1100 825,1168 779,1168"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0003">
+                        <pc:Coords points="821,1078 860,1078 860,1166 821,1166"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0004">
+                        <pc:Coords points="858,1101 937,1101 937,1167 858,1167"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0005">
+                        <pc:Coords points="942,1098 988,1098 988,1166 942,1166"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0006">
+                        <pc:Coords points="983,1087 1028,1087 1028,1164 983,1164"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0007">
+                        <pc:Coords points="1027,1097 1079,1097 1079,1166 1027,1166"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0008">
+                        <pc:Coords points="1078,1075 1116,1075 1116,1164 1078,1164"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0009">
+                        <pc:Coords points="1114,1073 1154,1073 1154,1163 1114,1163"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0010">
+                        <pc:Coords points="1151,1094 1206,1094 1206,1179 1151,1179"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0011">
+                        <pc:Coords points="1206,1095 1256,1095 1256,1163 1206,1163"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0012">
+                        <pc:Coords points="1254,1079 1315,1079 1315,1162 1254,1162"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0013">
+                        <pc:Coords points="1312,1069 1360,1069 1360,1173 1312,1173"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0014">
+                        <pc:Coords points="1355,1091 1402,1091 1402,1162 1355,1162"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0001_line0001_word0001_glyph0015">
+                        <pc:Coords points="1400,1092 1451,1092 1451,1161 1400,1161"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.86">
+                    <pc:Unicode>für Edelmetallprüfer</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.855">
+                <pc:Unicode>Prüfungsanforderungen
+für Edelmetallprüfer</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="888,1357 888,1371 852,1371 852,1358 798,1358 798,1406 844,1406 852,1406 888,1406 892,1406 896,1410 900,1406 935,1406 935,1407 1011,1407 1011,1374 1018,1374 1018,1406 1046,1406 1046,1407 1071,1407 1080,1407 1123,1407 1123,1371 1080,1371 1075,1371 1071,1367 1067,1371 1052,1371 1052,1370 1049,1370 1046,1367 1043,1370 1022,1370 1018,1366 1011,1366 1011,1363 941,1363 941,1357"/>
+            <pc:TextLine id="region0002_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0002_region0002_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="888,1357 888,1371 852,1371 852,1358 798,1358 798,1406 844,1406 852,1406 888,1406 892,1406 896,1410 900,1406 935,1406 935,1407 1011,1407 1011,1374 1018,1374 1018,1406 1046,1406 1046,1407 1071,1407 1080,1407 1123,1407 1123,1371 1080,1371 1075,1371 1071,1367 1067,1371 1052,1371 1052,1370 1049,1370 1046,1367 1043,1370 1022,1370 1018,1366 1011,1366 1011,1363 941,1363 941,1357"/>
+                <pc:Word id="region0002_line0000_word0000">
+                    <pc:Coords points="852,1371 852,1358 798,1358 798,1406 844,1406 852,1406 888,1406 892,1406 896,1406 900,1406 935,1406 935,1407 1011,1407 1011,1374 1011,1366 1011,1363 941,1363 941,1357 888,1357 888,1367 888,1371 884,1371"/>
+                    <pc:Glyph id="region0002_line0000_word0000_glyph0000">
+                        <pc:Coords points="798,1358 852,1358 852,1406 798,1406"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0002_line0000_word0000_glyph0001">
+                        <pc:Coords points="844,1371 896,1371 896,1406 844,1406"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0002_line0000_word0000_glyph0002">
+                        <pc:Coords points="888,1357 941,1357 941,1406 888,1406"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0002_line0000_word0000_glyph0003">
+                        <pc:Coords points="935,1363 1011,1363 1011,1407 935,1407"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0001">
+                    <pc:Coords points="1043,1370 1018,1370 1018,1406 1046,1406 1046,1407 1071,1407 1080,1407 1123,1407 1123,1371 1080,1371 1075,1371 1071,1367 1067,1371 1052,1371 1052,1370 1049,1370 1046,1367"/>
+                    <pc:Glyph id="region0002_line0000_word0001_glyph0000">
+                        <pc:Coords points="1018,1370 1052,1370 1052,1406 1018,1406"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0002_line0000_word0001_glyph0001">
+                        <pc:Coords points="1046,1371 1080,1371 1080,1407 1046,1407"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0002_line0000_word0001_glyph0002">
+                        <pc:Coords points="1071,1371 1123,1371 1123,1407 1071,1407"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.88">
+                    <pc:Unicode>bearbeitet vom</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.88">
+                <pc:Unicode>bearbeitet vom</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="632,1505 698,1505 698,1454 713,1454 713,1506 791,1506 791,1455 804,1455 804,1500 842,1500 842,1504 838,1508 838,1532 813,1532 813,1581 911,1581 920,1581 966,1581 968,1583 980,1583 984,1579 1074,1579 1074,1539 1083,1539 1083,1583 1116,1583 1116,1535 1087,1535 1083,1531 1074,1531 1072,1533 980,1533 980,1575 968,1575 968,1544 920,1544 920,1532 846,1532 846,1508 965,1508 975,1508 1061,1508 1061,1455 1075,1455 1075,1509 1344,1509 1344,1456 1361,1456 1361,1510 1381,1510 1381,1511 1532,1511 1532,1512 1564,1512 1564,1457 1578,1457 1578,1505 1643,1505 1643,1457 1649,1457 1649,1506 1722,1506 1722,1453 1653,1453 1649,1449 1643,1449 1639,1453 1582,1453 1578,1449 1564,1449 1560,1453 1541,1453 1541,1452 1535,1452 1532,1449 1529,1452 1392,1452 1385,1452 1381,1448 1377,1452 1365,1452 1361,1448 1344,1448 1341,1451 1079,1451 1075,1447 1061,1447 1057,1451 975,1451 975,1450 968,1450 965,1447 962,1450 845,1450 842,1447 838,1451 808,1451 804,1447 791,1447 788,1450 717,1450 713,1446 698,1446 694,1450 639,1450 639,1449 635,1449 632,1446 629,1449 603,1449 596,1449 592,1445 588,1449 485,1449 483,1447 470,1447 466,1451 394,1451 390,1451 386,1447 382,1451 286,1451 286,1506 394,1506 394,1503 470,1503 470,1455 483,1455 483,1505 603,1505 603,1504 632,1504"/>
+            <pc:TextLine id="region0003_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0003_region0003_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="588,1449 485,1449 483,1447 470,1447 466,1451 394,1451 390,1451 386,1447 382,1451 286,1451 286,1506 394,1506 394,1503 470,1503 470,1455 483,1455 483,1505 603,1505 603,1504 632,1504 632,1505 698,1505 698,1454 713,1454 713,1506 791,1506 791,1455 804,1455 804,1500 842,1500 842,1508 965,1508 975,1508 1061,1508 1061,1455 1075,1455 1075,1509 1344,1509 1344,1456 1361,1456 1361,1510 1381,1510 1381,1511 1532,1511 1532,1512 1564,1512 1564,1457 1578,1457 1578,1505 1643,1505 1643,1457 1649,1457 1649,1506 1722,1506 1722,1453 1653,1453 1649,1449 1643,1449 1639,1453 1582,1453 1578,1449 1564,1449 1560,1453 1541,1453 1541,1452 1535,1452 1532,1449 1529,1452 1392,1452 1385,1452 1381,1448 1377,1452 1365,1452 1361,1448 1344,1448 1341,1451 1079,1451 1075,1447 1061,1447 1057,1451 975,1451 975,1450 968,1450 965,1447 962,1450 845,1450 842,1447 838,1451 808,1451 804,1447 791,1447 788,1450 717,1450 713,1446 698,1446 694,1450 639,1450 639,1449 635,1449 632,1446 629,1449 603,1449 596,1449 592,1445"/>
+                <pc:Word id="region0003_line0000_word0000">
+                    <pc:Coords points="386,1447 382,1451 286,1451 286,1506 394,1506 394,1503 470,1503 470,1451 394,1451 390,1451"/>
+                    <pc:Glyph id="region0003_line0000_word0000_glyph0000">
+                        <pc:Coords points="286,1451 394,1451 394,1506 286,1506"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0000_glyph0001">
+                        <pc:Coords points="386,1451 470,1451 470,1503 386,1503"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0003_line0000_word0001">
+                    <pc:Coords points="588,1449 483,1449 483,1505 603,1505 603,1504 632,1504 632,1505 698,1505 698,1450 639,1450 639,1449 635,1449 632,1446 629,1449 603,1449 596,1449 592,1445"/>
+                    <pc:Glyph id="region0003_line0000_word0001_glyph0000">
+                        <pc:Coords points="483,1449 603,1449 603,1505 483,1505"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0001_glyph0001">
+                        <pc:Coords points="592,1449 639,1449 639,1504 592,1504"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0001_glyph0002">
+                        <pc:Coords points="632,1450 698,1450 698,1505 632,1505"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0003_line0000_word0002">
+                    <pc:Coords points="713,1450 791,1450 791,1506 713,1506"/>
+                    <pc:Glyph id="region0003_line0000_word0002_glyph0000">
+                        <pc:Coords points="713,1450 791,1450 791,1506 713,1506"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0003_line0000_word0003">
+                    <pc:Coords points="838,1451 804,1451 804,1500 842,1500 842,1508 965,1508 975,1508 1061,1508 1061,1451 975,1451 975,1450 968,1450 965,1447 962,1450 845,1450 842,1447"/>
+                    <pc:Glyph id="region0003_line0000_word0003_glyph0000">
+                        <pc:Coords points="804,1451 849,1451 849,1500 804,1500"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0003_glyph0001">
+                        <pc:Coords points="842,1450 975,1450 975,1508 842,1508"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0003_glyph0002">
+                        <pc:Coords points="965,1451 1061,1451 1061,1508 965,1508"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0003_line0000_word0004">
+                    <pc:Coords points="1075,1451 1344,1451 1344,1509 1075,1509"/>
+                    <pc:Glyph id="region0003_line0000_word0004_glyph0000">
+                        <pc:Coords points="1075,1451 1344,1451 1344,1509 1075,1509"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0003_line0000_word0005">
+                    <pc:Coords points="1377,1452 1361,1452 1361,1510 1381,1510 1381,1511 1532,1511 1532,1512 1564,1512 1564,1453 1541,1453 1541,1452 1535,1452 1532,1449 1529,1452 1392,1452 1385,1452 1381,1448"/>
+                    <pc:Glyph id="region0003_line0000_word0005_glyph0000">
+                        <pc:Coords points="1361,1452 1392,1452 1392,1510 1361,1510"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0005_glyph0001">
+                        <pc:Coords points="1381,1452 1541,1452 1541,1511 1381,1511"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0005_glyph0002">
+                        <pc:Coords points="1532,1453 1564,1453 1564,1512 1532,1512"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0003_line0000_word0006">
+                    <pc:Coords points="1649,1449 1643,1449 1639,1453 1578,1453 1578,1505 1643,1505 1643,1457 1649,1457 1649,1506 1722,1506 1722,1453 1653,1453"/>
+                    <pc:Glyph id="region0003_line0000_word0006_glyph0000">
+                        <pc:Coords points="1578,1453 1643,1453 1643,1505 1578,1505"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0000_word0006_glyph0001">
+                        <pc:Coords points="1649,1453 1722,1453 1722,1506 1649,1506"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.69">
+                    <pc:Unicode>Deniſchen Aus\ſchuß für Techniſches Schulweſen (Datſch) E. B.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0003_region0003_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="980,1552 980,1575 980,1579 984,1579 1074,1579 1074,1539 1083,1539 1083,1583 1116,1583 1116,1535 1087,1535 1083,1531 1074,1531 1072,1533 980,1533 980,1540 980,1544 968,1544 964,1544 920,1544 920,1532 846,1532 838,1532 813,1532 813,1581 911,1581 920,1581 966,1581 968,1581 968,1575 968,1552"/>
+                <pc:Word id="region0003_line0001_word0000">
+                    <pc:Coords points="1074,1531 1072,1533 980,1533 980,1540 980,1544 968,1544 964,1544 920,1544 920,1532 846,1532 838,1532 813,1532 813,1581 911,1581 920,1581 966,1581 968,1581 968,1575 968,1552 968,1548 980,1548 980,1552 980,1575 980,1579 984,1579 1074,1579 1074,1539 1083,1539 1083,1583 1116,1583 1116,1535 1087,1535 1083,1531"/>
+                    <pc:Glyph id="region0003_line0001_word0000_glyph0000">
+                        <pc:Coords points="813,1532 920,1532 920,1581 813,1581"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0001_word0000_glyph0001">
+                        <pc:Coords points="911,1544 968,1544 968,1581 911,1581"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0001_word0000_glyph0002">
+                        <pc:Coords points="980,1533 1074,1533 1074,1579 980,1579"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0003_line0001_word0000_glyph0003">
+                        <pc:Coords points="1083,1535 1116,1535 1116,1583 1083,1583"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.75">
+                    <pc:Unicode>Berlin NW 7</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.72">
+                <pc:Unicode>Deniſchen Aus\ſchuß für Techniſches Schulweſen (Datſch) E. B.
+Berlin NW 7</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0004" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="906,1637 862,1637 862,1682 856,1682 856,1650 790,1650 790,1686 852,1686 856,1690 862,1690 866,1686 899,1686 899,1687 929,1687 929,1695 1011,1695 1011,1697 1039,1697 1039,1733 1016,1733 1016,1740 1008,1740 1004,1744 963,1744 963,1735 838,1735 838,1729 764,1729 759,1729 755,1725 751,1729 715,1729 715,1778 755,1778 755,1787 830,1787 830,1788 959,1788 959,1828 889,1828 889,1875 980,1875 980,1833 988,1833 988,1876 1064,1876 1064,1829 992,1829 988,1825 980,1825 977,1828 967,1828 967,1788 966,1787 1008,1787 1008,1748 1016,1748 1016,1784 1105,1784 1105,1791 1209,1791 1209,1786 1231,1786 1231,1749 1209,1749 1209,1734 1113,1734 1113,1733 1108,1733 1105,1730 1102,1733 1047,1733 1047,1697 1043,1693 1043,1689 1064,1689 1064,1656 1073,1656 1073,1690 1149,1690 1149,1642 1073,1642 1073,1648 1064,1648 1060,1652 1043,1652 1039,1652 1035,1648 1031,1652 1018,1652 1018,1638 929,1638 929,1648 925,1652 906,1652"/>
+            <pc:TextLine id="region0004_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0004_region0004_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="899,1686 899,1687 929,1687 929,1695 1011,1695 1011,1697 1039,1697 1043,1697 1043,1693 1043,1689 1064,1689 1064,1656 1073,1656 1073,1690 1149,1690 1149,1642 1073,1642 1073,1648 1064,1648 1060,1652 1043,1652 1039,1652 1035,1648 1031,1652 1018,1652 1018,1638 929,1638 929,1648 925,1652 906,1652 906,1637 862,1637 862,1646 862,1654 862,1682 856,1682 856,1654 856,1650 852,1650 790,1650 790,1686 852,1686 856,1690 862,1690 866,1686"/>
+                <pc:Word id="region0004_line0000_word0000">
+                    <pc:Coords points="790,1650 856,1650 856,1686 790,1686"/>
+                    <pc:Glyph id="region0004_line0000_word0000_glyph0000">
+                        <pc:Coords points="790,1650 856,1650 856,1686 790,1686"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0004_line0000_word0001">
+                    <pc:Coords points="925,1652 906,1652 906,1637 862,1637 862,1686 899,1686 899,1687 929,1687 929,1695 1011,1695 1011,1697 1043,1697 1043,1689 1064,1689 1064,1652 1043,1652 1039,1652 1035,1648 1031,1652 1018,1652 1018,1638 929,1638 929,1648"/>
+                    <pc:Glyph id="region0004_line0000_word0001_glyph0000">
+                        <pc:Coords points="862,1637 906,1637 906,1686 862,1686"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0000_word0001_glyph0001">
+                        <pc:Coords points="899,1652 936,1652 936,1687 899,1687"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0000_word0001_glyph0002">
+                        <pc:Coords points="929,1638 1018,1638 1018,1695 929,1695"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0000_word0001_glyph0003">
+                        <pc:Coords points="1011,1652 1043,1652 1043,1697 1011,1697"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0000_word0001_glyph0004">
+                        <pc:Coords points="1035,1652 1064,1652 1064,1689 1035,1689"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0004_line0000_word0002">
+                    <pc:Coords points="1073,1642 1149,1642 1149,1690 1073,1690"/>
+                    <pc:Glyph id="region0004_line0000_word0002_glyph0000">
+                        <pc:Coords points="1073,1642 1149,1642 1149,1690 1073,1690"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.8">
+                    <pc:Unicode>tm Auftrage der</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0004_region0004_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="755,1778 755,1787 830,1787 830,1788 959,1788 963,1788 963,1787 966,1787 1007,1787 1008,1787 1008,1784 1016,1784 1020,1784 1105,1784 1105,1791 1209,1791 1209,1786 1231,1786 1231,1749 1209,1749 1209,1734 1113,1734 1113,1733 1108,1733 1105,1730 1102,1733 1047,1733 1039,1733 1016,1733 1016,1740 1016,1748 1016,1776 1008,1776 1008,1748 1008,1744 1004,1744 963,1744 963,1735 838,1735 838,1729 764,1729 759,1729 755,1725 751,1729 715,1729 715,1778"/>
+                <pc:Word id="region0004_line0001_word0000">
+                    <pc:Coords points="751,1729 715,1729 715,1778 755,1778 755,1787 830,1787 830,1788 963,1788 963,1787 1008,1787 1008,1744 963,1744 963,1735 838,1735 838,1729 764,1729 759,1729 755,1725"/>
+                    <pc:Glyph id="region0004_line0001_word0000_glyph0000">
+                        <pc:Coords points="715,1729 764,1729 764,1778 715,1778"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0001_word0000_glyph0001">
+                        <pc:Coords points="755,1729 838,1729 838,1787 755,1787"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0001_word0000_glyph0002">
+                        <pc:Coords points="830,1735 963,1735 963,1788 830,1788"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0001_word0000_glyph0003">
+                        <pc:Coords points="954,1744 1008,1744 1008,1787 954,1787"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0001">
+                    <pc:Coords points="1102,1733 1016,1733 1016,1784 1105,1784 1105,1791 1209,1791 1209,1786 1231,1786 1231,1749 1209,1749 1209,1734 1113,1734 1113,1733 1108,1733 1105,1730"/>
+                    <pc:Glyph id="region0004_line0001_word0001_glyph0000">
+                        <pc:Coords points="1016,1733 1113,1733 1113,1784 1016,1784"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0001_word0001_glyph0001">
+                        <pc:Coords points="1105,1734 1209,1734 1209,1791 1105,1791"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0004_line0001_word0001_glyph0002">
+                        <pc:Coords points="1201,1749 1231,1749 1231,1786 1201,1786"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.86">
+                    <pc:Unicode>Reich8gruppe Induſtrie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0002">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0004_region0004_line0002.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="988,1825 980,1825 977,1828 889,1828 889,1875 980,1875 980,1833 988,1833 988,1876 1064,1876 1064,1829 992,1829"/>
+                <pc:Word id="region0004_line0002_word0000">
+                    <pc:Coords points="889,1828 980,1828 980,1875 889,1875"/>
+                    <pc:Glyph id="region0004_line0002_word0000_glyph0000">
+                        <pc:Coords points="889,1828 980,1828 980,1875 889,1875"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0004_line0002_word0001">
+                    <pc:Coords points="988,1829 1064,1829 1064,1876 988,1876"/>
+                    <pc:Glyph id="region0004_line0002_word0001_glyph0000">
+                        <pc:Coords points="988,1829 1064,1829 1064,1876 988,1876"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.8">
+                    <pc:Unicode>und der</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.82">
+                <pc:Unicode>tm Auftrage der
+Reich8gruppe Induſtrie
+und der</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0005" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="677,1924 601,1924 601,1932 597,1936 549,1936 549,1918 425,1918 425,1925 421,1929 417,1929 417,1916 378,1916 378,1963 408,1963 408,1964 425,1964 425,1978 549,1978 549,1972 601,1972 601,1981 679,1981 679,1983 790,1983 790,1934 794,1934 794,1978 872,1978 872,1934 879,1934 879,1990 1110,1990 1110,1943 1117,1943 1117,1987 1210,1987 1210,1943 1218,1943 1218,1997 1332,1997 1332,2028 1033,2028 1033,2026 1025,2026 1023,2024 1021,2026 895,2026 895,2023 888,2023 887,2022 886,2023 778,2023 774,2019 765,2019 762,2022 693,2022 693,2029 684,2029 680,2033 656,2033 656,2019 633,2019 633,2067 648,2067 656,2067 684,2067 684,2037 693,2037 693,2070 765,2070 765,2027 774,2027 774,2082 887,2082 887,2085 1023,2085 1023,2088 1336,2088 1336,2032 1340,2028 1340,1997 1387,1997 1387,1995 1628,1995 1628,1942 1387,1942 1387,1938 1378,1938 1221,1938 1218,1935 1210,1935 1206,1939 1121,1939 1117,1935 1110,1935 1110,1930 883,1930 879,1926 872,1926 868,1930 798,1930 794,1926 790,1926 689,1926 689,1924 681,1924 679,1922"/>
+            <pc:TextLine id="region0005_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0005_region0005_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="677,1924 601,1924 601,1932 597,1936 549,1936 549,1918 425,1918 425,1925 421,1929 417,1929 417,1916 378,1916 378,1963 408,1963 408,1964 425,1964 425,1978 549,1978 549,1972 601,1972 601,1981 679,1981 679,1983 790,1983 790,1934 794,1934 794,1978 872,1978 872,1934 879,1934 879,1990 1110,1990 1110,1943 1117,1943 1117,1987 1210,1987 1210,1943 1218,1943 1218,1997 1387,1997 1387,1995 1628,1995 1628,1942 1387,1942 1387,1938 1378,1938 1221,1938 1218,1935 1210,1935 1206,1939 1121,1939 1117,1935 1110,1935 1110,1930 883,1930 879,1926 872,1926 868,1930 798,1930 794,1926 790,1926 689,1926 689,1924 681,1924 679,1922"/>
+                <pc:Word id="region0005_line0000_word0000">
+                    <pc:Coords points="417,1929 417,1916 378,1916 378,1963 408,1963 408,1964 425,1964 425,1978 549,1978 549,1972 601,1972 601,1981 679,1981 679,1983 790,1983 790,1926 689,1926 689,1924 681,1924 679,1922 677,1924 601,1924 601,1932 597,1936 549,1936 549,1918 425,1918 425,1925 421,1929"/>
+                    <pc:Glyph id="region0005_line0000_word0000_glyph0000">
+                        <pc:Coords points="378,1916 417,1916 417,1963 378,1963"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0000_word0000_glyph0001">
+                        <pc:Coords points="408,1929 433,1929 433,1964 408,1964"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0000_word0000_glyph0002">
+                        <pc:Coords points="425,1918 549,1918 549,1978 425,1978"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0000_word0000_glyph0003">
+                        <pc:Coords points="543,1936 611,1936 611,1972 543,1972"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0000_word0000_glyph0004">
+                        <pc:Coords points="601,1924 689,1924 689,1981 601,1981"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0000_word0000_glyph0005">
+                        <pc:Coords points="679,1926 790,1926 790,1983 679,1983"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0005_line0000_word0001">
+                    <pc:Coords points="794,1930 872,1930 872,1978 794,1978"/>
+                    <pc:Glyph id="region0005_line0000_word0001_glyph0000">
+                        <pc:Coords points="794,1930 872,1930 872,1978 794,1978"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0005_line0000_word0002">
+                    <pc:Coords points="879,1930 1110,1930 1110,1990 879,1990"/>
+                    <pc:Glyph id="region0005_line0000_word0002_glyph0000">
+                        <pc:Coords points="879,1930 1110,1930 1110,1990 879,1990"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0005_line0000_word0003">
+                    <pc:Coords points="1117,1939 1210,1939 1210,1987 1117,1987"/>
+                    <pc:Glyph id="region0005_line0000_word0003_glyph0000">
+                        <pc:Coords points="1117,1939 1210,1939 1210,1987 1117,1987"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0005_line0000_word0004">
+                    <pc:Coords points="1378,1938 1218,1938 1218,1997 1387,1997 1387,1995 1628,1995 1628,1942 1387,1942 1387,1938"/>
+                    <pc:Glyph id="region0005_line0000_word0004_glyph0000">
+                        <pc:Coords points="1218,1938 1387,1938 1387,1997 1218,1997"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0000_word0004_glyph0001">
+                        <pc:Coords points="1378,1942 1628,1942 1628,1995 1378,1995"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.9">
+                    <pc:Unicode>Arbeitsgemeinſchaft der Induſtrie- und Handelskammern</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0005_region0005_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="765,2019 762,2022 693,2022 693,2029 684,2029 680,2033 656,2033 656,2019 633,2019 633,2067 648,2067 656,2067 684,2067 684,2037 693,2037 693,2070 765,2070 765,2027 774,2027 774,2082 887,2082 887,2085 1023,2085 1023,2088 1336,2088 1336,2028 1033,2028 1033,2026 1025,2026 1023,2024 1021,2026 895,2026 895,2023 888,2023 887,2022 886,2023 778,2023 774,2019"/>
+                <pc:Word id="region0005_line0001_word0000">
+                    <pc:Coords points="633,2019 633,2067 648,2067 656,2067 684,2067 684,2033 656,2033 656,2019"/>
+                    <pc:Glyph id="region0005_line0001_word0000_glyph0000">
+                        <pc:Coords points="633,2019 656,2019 656,2067 633,2067"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0001_word0000_glyph0001">
+                        <pc:Coords points="648,2033 684,2033 684,2067 648,2067"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0001">
+                    <pc:Coords points="693,2022 765,2022 765,2070 693,2070"/>
+                    <pc:Glyph id="region0005_line0001_word0001_glyph0000">
+                        <pc:Coords points="693,2022 765,2022 765,2070 693,2070"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0005_line0001_word0002">
+                    <pc:Coords points="886,2023 774,2023 774,2082 887,2082 887,2085 1023,2085 1023,2088 1336,2088 1336,2028 1033,2028 1033,2026 1025,2026 1023,2024 1021,2026 895,2026 895,2023 888,2023 887,2022"/>
+                    <pc:Glyph id="region0005_line0001_word0002_glyph0000">
+                        <pc:Coords points="774,2023 895,2023 895,2082 774,2082"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0001_word0002_glyph0001">
+                        <pc:Coords points="887,2026 1033,2026 1033,2085 887,2085"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0005_line0001_word0002_glyph0002">
+                        <pc:Coords points="1023,2028 1336,2028 1336,2088 1023,2088"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.9">
+                    <pc:Unicode>in der Reichswirtſchafiskammer</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.9">
+                <pc:Unicode>Arbeitsgemeinſchaft der Induſtrie- und Handelskammern
+in der Reichswirtſchafiskammer</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0006" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="771,2415 853,2415 853,2384 860,2384 860,2415 886,2415 886,2417 908,2417 916,2417 955,2417 955,2387 965,2387 965,2420 990,2420 990,2421 1009,2421 1009,2406 1013,2406 1013,2439 1053,2439 1053,2423 1069,2423 1069,2424 1175,2424 1175,2392 1181,2392 1181,2424 1203,2424 1203,2425 1228,2425 1228,2428 1273,2428 1273,2433 1302,2433 1302,2380 1276,2380 1273,2377 1269,2381 1237,2381 1232,2381 1228,2377 1224,2381 1209,2381 1209,2380 1206,2380 1203,2377 1200,2380 1181,2380 1181,2384 1175,2384 1171,2388 1076,2388 1073,2388 1069,2384 1065,2388 1053,2388 1053,2376 1013,2376 1013,2398 1009,2398 1005,2402 994,2402 991,2399 991,2376 965,2376 965,2379 955,2379 951,2383 916,2383 916,2382 911,2382 908,2379 905,2382 891,2382 891,2380 888,2380 886,2378 884,2380 864,2380 860,2376 853,2376 853,2370 780,2370 780,2364 724,2364 724,2363 719,2363 716,2360 713,2363 698,2363 698,2414 724,2414 724,2411 771,2411"/>
+            <pc:TextLine id="region0006_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0006_region0006_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="771,2415 853,2415 853,2384 860,2384 860,2415 886,2415 886,2417 908,2417 916,2417 955,2417 955,2387 965,2387 965,2420 990,2420 990,2421 1009,2421 1009,2406 1013,2406 1013,2439 1053,2439 1053,2423 1069,2423 1069,2424 1175,2424 1175,2392 1181,2392 1181,2424 1203,2424 1203,2425 1228,2425 1228,2428 1273,2428 1273,2433 1302,2433 1302,2380 1276,2380 1273,2377 1269,2381 1237,2381 1232,2381 1228,2377 1224,2381 1209,2381 1209,2380 1206,2380 1203,2377 1200,2380 1181,2380 1181,2384 1175,2384 1171,2388 1076,2388 1073,2388 1069,2384 1065,2388 1053,2388 1053,2376 1013,2376 1013,2398 1009,2398 1005,2402 994,2402 991,2399 991,2376 965,2376 965,2379 955,2379 951,2383 916,2383 916,2382 911,2382 908,2379 905,2382 891,2382 891,2380 888,2380 886,2378 884,2380 864,2380 860,2376 853,2376 853,2370 780,2370 780,2364 724,2364 724,2363 719,2363 716,2360 713,2363 698,2363 698,2414 724,2414 724,2411 771,2411"/>
+                <pc:Word id="region0006_line0000_word0000">
+                    <pc:Coords points="713,2363 698,2363 698,2414 724,2414 724,2411 771,2411 771,2415 853,2415 853,2370 780,2370 780,2364 724,2364 724,2363 719,2363 716,2360"/>
+                    <pc:Glyph id="region0006_line0000_word0000_glyph0000">
+                        <pc:Coords points="698,2363 724,2363 724,2414 698,2414"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0000_glyph0001">
+                        <pc:Coords points="716,2364 780,2364 780,2411 716,2411"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0000_glyph0002">
+                        <pc:Coords points="771,2370 853,2370 853,2415 771,2415"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0006_line0000_word0001">
+                    <pc:Coords points="884,2380 860,2380 860,2415 886,2415 886,2417 908,2417 916,2417 955,2417 955,2383 916,2383 916,2382 911,2382 908,2379 905,2382 891,2382 891,2380 888,2380 886,2378"/>
+                    <pc:Glyph id="region0006_line0000_word0001_glyph0000">
+                        <pc:Coords points="860,2380 891,2380 891,2415 860,2415"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0001_glyph0001">
+                        <pc:Coords points="886,2382 916,2382 916,2417 886,2417"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0001_glyph0002">
+                        <pc:Coords points="908,2383 955,2383 955,2417 908,2417"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0006_line0000_word0002">
+                    <pc:Coords points="991,2376 965,2376 965,2420 990,2420 990,2421 1009,2421 1009,2402 994,2402 991,2399"/>
+                    <pc:Glyph id="region0006_line0000_word0002_glyph0000">
+                        <pc:Coords points="965,2376 991,2376 991,2420 965,2420"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0002_glyph0001">
+                        <pc:Coords points="990,2402 1009,2402 1009,2421 990,2421"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0006_line0000_word0003">
+                    <pc:Coords points="1065,2388 1053,2388 1053,2376 1013,2376 1013,2439 1053,2439 1053,2423 1069,2423 1069,2424 1175,2424 1175,2388 1076,2388 1073,2388 1069,2384"/>
+                    <pc:Glyph id="region0006_line0000_word0003_glyph0000">
+                        <pc:Coords points="1013,2376 1053,2376 1053,2439 1013,2439"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0003_glyph0001">
+                        <pc:Coords points="1045,2388 1076,2388 1076,2423 1045,2423"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0003_glyph0002">
+                        <pc:Coords points="1069,2388 1175,2388 1175,2424 1069,2424"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0006_line0000_word0004">
+                    <pc:Coords points="1200,2380 1181,2380 1181,2424 1203,2424 1203,2425 1228,2425 1228,2428 1273,2428 1273,2433 1302,2433 1302,2380 1276,2380 1273,2377 1269,2381 1237,2381 1232,2381 1228,2377 1224,2381 1209,2381 1209,2380 1206,2380 1203,2377"/>
+                    <pc:Glyph id="region0006_line0000_word0004_glyph0000">
+                        <pc:Coords points="1181,2380 1209,2380 1209,2424 1181,2424"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0004_glyph0001">
+                        <pc:Coords points="1203,2381 1237,2381 1237,2425 1203,2425"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0004_glyph0002">
+                        <pc:Coords points="1228,2381 1284,2381 1284,2428 1228,2428"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0006_line0000_word0004_glyph0003">
+                        <pc:Coords points="1273,2380 1302,2380 1302,2433 1273,2433"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.95">
+                    <pc:Unicode>(Stand vom 1, Januar 1938)</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.95">
+                <pc:Unicode>(Stand vom 1, Januar 1938)</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0007" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="285,2733 329,2733 329,2707 333,2707 333,2737 358,2737 358,2710 361,2710 361,2741 385,2741 385,2710 390,2710 390,2745 411,2745 411,2718 416,2718 416,2750 446,2750 446,2723 450,2723 450,2760 480,2760 480,2725 505,2725 505,2759 538,2759 538,2731 543,2731 543,2762 574,2762 574,2732 577,2732 577,2766 613,2766 613,2732 624,2732 624,2787 677,2787 677,2771 690,2771 690,2753 703,2753 703,2772 748,2772 748,2774 770,2774 770,2755 781,2755 781,2776 828,2776 828,2742 830,2742 830,2775 859,2775 859,2744 861,2744 861,2778 898,2778 898,2744 900,2744 900,2778 936,2778 936,2747 937,2747 937,2780 977,2780 977,2779 1007,2779 1007,2781 1038,2781 1038,2749 1064,2749 1064,2782 1091,2782 1091,2751 1092,2751 1092,2783 1130,2783 1130,2751 1158,2751 1158,2784 1194,2784 1194,2782 1224,2782 1224,2750 1226,2750 1226,2783 1254,2783 1254,2790 1290,2790 1290,2748 1291,2748 1291,2789 1322,2789 1322,2781 1350,2781 1350,2789 1386,2789 1386,2750 1411,2750 1411,2781 1448,2781 1448,2750 1451,2750 1451,2782 1490,2782 1490,2749 1491,2749 1491,2781 1525,2781 1525,2739 1549,2739 1549,2781 1601,2781 1601,2746 1602,2746 1602,2779 1632,2779 1632,2747 1633,2747 1633,2779 1659,2779 1663,2783 1665,2783 1669,2779 1692,2779 1692,2778 1720,2778 1720,2746 1721,2746 1721,2780 1759,2780 1759,2742 1725,2742 1721,2738 1720,2738 1720,2731 1694,2731 1691,2728 1687,2732 1665,2732 1665,2775 1663,2775 1663,2743 1637,2743 1633,2739 1632,2739 1629,2742 1606,2742 1602,2738 1601,2738 1601,2733 1551,2733 1549,2731 1525,2731 1521,2735 1491,2735 1491,2741 1490,2741 1486,2745 1454,2745 1451,2742 1448,2742 1444,2746 1415,2746 1411,2742 1386,2742 1382,2746 1354,2746 1350,2742 1350,2733 1321,2733 1321,2740 1317,2744 1295,2744 1291,2740 1290,2740 1286,2744 1258,2744 1254,2740 1254,2735 1226,2735 1226,2742 1224,2742 1220,2746 1198,2746 1194,2742 1194,2734 1158,2734 1158,2743 1130,2743 1126,2747 1096,2747 1092,2743 1091,2743 1091,2735 1064,2735 1064,2741 1038,2741 1034,2745 1011,2745 1007,2741 1005,2743 981,2743 977,2739 973,2743 941,2743 937,2739 936,2739 936,2731 900,2731 900,2736 898,2736 894,2740 865,2740 861,2736 859,2736 857,2738 834,2738 830,2734 828,2734 828,2727 781,2727 781,2747 770,2747 766,2751 756,2751 756,2724 703,2724 703,2745 690,2745 686,2749 677,2749 677,2722 624,2722 624,2724 613,2724 609,2728 581,2728 577,2724 574,2724 571,2727 547,2727 543,2723 538,2723 538,2721 509,2721 505,2717 480,2717 478,2719 454,2719 450,2715 446,2715 446,2714 420,2714 416,2710 411,2710 411,2699 390,2699 390,2702 385,2702 381,2706 365,2706 361,2702 358,2702 357,2703 337,2703 333,2699 329,2699 329,2686 285,2686"/>
+            <pc:TextLine id="region0007_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0007_region0007_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="285,2686 329,2686 329,2733 285,2733"/>
+                <pc:Word id="region0007_line0000_word0000">
+                    <pc:Coords points="285,2686 329,2686 329,2733 285,2733"/>
+                    <pc:Glyph id="region0007_line0000_word0000_glyph0000">
+                        <pc:Coords points="285,2686 329,2686 329,2733 285,2733"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.92">
+                    <pc:Unicode>V</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0007_line0001">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0007_region0007_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="361,2710 361,2741 385,2741 385,2710 390,2710 390,2745 411,2745 411,2718 416,2718 416,2750 446,2750 446,2723 450,2723 450,2760 480,2760 480,2725 505,2725 505,2759 538,2759 538,2731 543,2731 543,2762 574,2762 574,2732 577,2732 577,2766 613,2766 613,2732 624,2732 624,2787 677,2787 677,2771 690,2771 690,2753 703,2753 703,2772 748,2772 748,2774 770,2774 770,2755 781,2755 781,2776 828,2776 828,2742 830,2742 830,2775 859,2775 859,2744 861,2744 861,2778 894,2778 898,2782 900,2782 904,2778 936,2778 936,2747 937,2747 937,2780 977,2780 977,2779 1007,2779 1007,2781 1038,2781 1038,2749 1064,2749 1064,2782 1091,2782 1091,2751 1092,2751 1092,2783 1130,2783 1130,2751 1158,2751 1158,2784 1194,2784 1194,2782 1224,2782 1224,2750 1226,2750 1226,2783 1254,2783 1254,2790 1290,2790 1290,2748 1291,2748 1291,2789 1322,2789 1322,2781 1350,2781 1350,2789 1386,2789 1386,2750 1411,2750 1411,2781 1448,2781 1448,2750 1451,2750 1451,2782 1487,2782 1490,2782 1490,2781 1491,2781 1495,2781 1521,2781 1525,2785 1549,2785 1553,2781 1601,2781 1601,2746 1602,2746 1602,2779 1632,2779 1632,2747 1633,2747 1633,2779 1659,2779 1663,2783 1665,2783 1669,2779 1689,2779 1692,2779 1692,2778 1696,2778 1720,2778 1720,2746 1721,2746 1721,2780 1759,2780 1759,2742 1725,2742 1721,2738 1720,2738 1720,2731 1694,2731 1691,2731 1691,2732 1687,2732 1665,2732 1665,2775 1663,2775 1663,2743 1637,2743 1633,2739 1632,2739 1629,2742 1606,2742 1602,2738 1601,2738 1601,2733 1551,2733 1549,2733 1549,2739 1549,2777 1525,2777 1525,2739 1525,2735 1521,2735 1491,2735 1491,2741 1491,2749 1491,2773 1490,2773 1490,2749 1490,2745 1486,2745 1454,2745 1451,2742 1448,2742 1444,2746 1415,2746 1411,2742 1386,2742 1382,2746 1354,2746 1350,2742 1350,2733 1321,2733 1321,2740 1317,2744 1295,2744 1291,2740 1290,2740 1286,2744 1258,2744 1254,2740 1254,2735 1226,2735 1226,2742 1224,2742 1220,2746 1198,2746 1194,2742 1194,2734 1158,2734 1158,2743 1130,2743 1126,2747 1096,2747 1092,2743 1091,2743 1091,2735 1064,2735 1064,2741 1038,2741 1034,2745 1011,2745 1007,2741 1005,2743 981,2743 977,2739 973,2743 941,2743 937,2739 936,2739 936,2731 900,2731 900,2736 900,2744 900,2774 898,2774 898,2744 898,2740 894,2740 865,2740 861,2736 859,2736 857,2738 834,2738 830,2734 828,2734 828,2727 781,2727 781,2747 770,2747 766,2751 756,2751 756,2724 703,2724 703,2745 690,2745 686,2749 677,2749 677,2722 624,2722 624,2724 613,2724 609,2728 581,2728 577,2724 574,2724 571,2727 547,2727 543,2723 538,2723 538,2721 509,2721 505,2717 480,2717 478,2719 454,2719 450,2715 446,2715 446,2714 420,2714 416,2710 411,2710 411,2699 390,2699 390,2702 385,2702 381,2706 365,2706 361,2702 358,2702 357,2703 337,2703 333,2703 333,2707 333,2737 358,2737 358,2710"/>
+                <pc:Word id="region0007_line0001_word0000">
+                    <pc:Coords points="358,2702 357,2703 333,2703 333,2737 358,2737 358,2710 361,2710 361,2741 385,2741 385,2710 390,2710 390,2745 411,2745 411,2718 416,2718 416,2750 446,2750 446,2723 450,2723 450,2760 480,2760 480,2719 454,2719 450,2715 446,2715 446,2714 420,2714 416,2710 411,2710 411,2699 390,2699 390,2702 385,2702 381,2706 365,2706 361,2702"/>
+                    <pc:Glyph id="region0007_line0001_word0000_glyph0000">
+                        <pc:Coords points="333,2703 358,2703 358,2737 333,2737"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0000_glyph0001">
+                        <pc:Coords points="361,2706 385,2706 385,2741 361,2741"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0000_glyph0002">
+                        <pc:Coords points="390,2699 411,2699 411,2745 390,2745"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0000_glyph0003">
+                        <pc:Coords points="416,2714 446,2714 446,2750 416,2750"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0000_glyph0004">
+                        <pc:Coords points="450,2719 480,2719 480,2760 450,2760"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0007_line0001_word0001">
+                    <pc:Coords points="505,2721 505,2725 505,2759 538,2759 538,2731 543,2731 543,2762 574,2762 574,2732 577,2732 577,2766 613,2766 613,2732 624,2732 624,2787 677,2787 677,2771 690,2771 690,2753 703,2753 703,2772 748,2772 748,2774 770,2774 770,2755 781,2755 781,2776 828,2776 828,2742 830,2742 830,2775 859,2775 859,2744 861,2744 861,2778 894,2778 898,2782 900,2782 904,2778 936,2778 936,2747 937,2747 937,2780 977,2780 977,2779 1007,2779 1007,2781 1038,2781 1038,2749 1038,2745 1034,2745 1011,2745 1007,2741 1005,2743 981,2743 977,2739 973,2743 941,2743 937,2739 936,2739 936,2731 900,2731 900,2736 900,2744 900,2774 898,2774 898,2744 898,2740 894,2740 865,2740 861,2736 859,2736 857,2738 834,2738 830,2734 828,2734 828,2727 781,2727 781,2747 770,2747 766,2751 756,2751 756,2724 703,2724 703,2745 690,2745 686,2749 677,2749 677,2722 624,2722 624,2724 613,2724 609,2728 581,2728 577,2724 574,2724 571,2727 547,2727 543,2723 538,2723 538,2721 509,2721"/>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0000">
+                        <pc:Coords points="505,2721 538,2721 538,2759 505,2759"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0001">
+                        <pc:Coords points="543,2727 574,2727 574,2762 543,2762"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0002">
+                        <pc:Coords points="577,2728 613,2728 613,2766 577,2766"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0003">
+                        <pc:Coords points="624,2722 677,2722 677,2787 624,2787"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0004">
+                        <pc:Coords points="668,2749 690,2749 690,2771 668,2771"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0005">
+                        <pc:Coords points="703,2724 756,2724 756,2772 703,2772"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0006">
+                        <pc:Coords points="748,2751 770,2751 770,2774 748,2774"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0007">
+                        <pc:Coords points="781,2727 828,2727 828,2776 781,2776"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0008">
+                        <pc:Coords points="830,2738 859,2738 859,2775 830,2775"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0009">
+                        <pc:Coords points="861,2740 898,2740 898,2778 861,2778"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0010">
+                        <pc:Coords points="900,2731 936,2731 936,2778 900,2778"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0011">
+                        <pc:Coords points="937,2743 977,2743 977,2780 937,2780"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0012">
+                        <pc:Coords points="977,2743 1007,2743 1007,2779 977,2779"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0001_glyph0013">
+                        <pc:Coords points="1007,2745 1038,2745 1038,2781 1007,2781"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0007_line0001_word0002">
+                    <pc:Coords points="1092,2743 1091,2743 1091,2735 1064,2735 1064,2782 1091,2782 1091,2751 1092,2751 1092,2783 1130,2783 1130,2747 1096,2747"/>
+                    <pc:Glyph id="region0007_line0001_word0002_glyph0000">
+                        <pc:Coords points="1064,2735 1091,2735 1091,2782 1064,2782"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0002_glyph0001">
+                        <pc:Coords points="1092,2747 1130,2747 1130,2783 1092,2783"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0007_line0001_word0003">
+                    <pc:Coords points="1254,2735 1226,2735 1226,2742 1224,2742 1220,2746 1198,2746 1194,2742 1194,2734 1158,2734 1158,2743 1158,2751 1158,2784 1194,2784 1194,2782 1224,2782 1224,2750 1226,2750 1226,2783 1254,2783 1254,2790 1290,2790 1290,2748 1291,2748 1291,2789 1322,2789 1322,2785 1322,2781 1326,2781 1350,2781 1350,2789 1386,2789 1386,2750 1386,2746 1382,2746 1354,2746 1350,2742 1350,2733 1321,2733 1321,2740 1321,2744 1317,2744 1295,2744 1291,2740 1290,2740 1286,2744 1258,2744 1254,2740"/>
+                    <pc:Glyph id="region0007_line0001_word0003_glyph0000">
+                        <pc:Coords points="1158,2734 1194,2734 1194,2784 1158,2784"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0003_glyph0001">
+                        <pc:Coords points="1194,2746 1224,2746 1224,2782 1194,2782"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0003_glyph0002">
+                        <pc:Coords points="1226,2735 1254,2735 1254,2783 1226,2783"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0003_glyph0003">
+                        <pc:Coords points="1254,2744 1290,2744 1290,2790 1254,2790"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0003_glyph0004">
+                        <pc:Coords points="1291,2744 1322,2744 1322,2789 1291,2789"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0003_glyph0005">
+                        <pc:Coords points="1321,2733 1350,2733 1350,2781 1321,2781"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0003_glyph0006">
+                        <pc:Coords points="1350,2746 1386,2746 1386,2789 1350,2789"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0007_line0001_word0004">
+                    <pc:Coords points="1491,2777 1490,2777 1490,2773 1490,2749 1490,2745 1486,2745 1454,2745 1451,2742 1448,2742 1444,2746 1415,2746 1411,2746 1411,2750 1411,2781 1448,2781 1448,2750 1451,2750 1451,2782 1487,2782 1490,2785 1491,2785 1495,2781 1521,2781 1525,2781 1525,2777 1525,2739 1525,2735 1521,2735 1491,2735 1491,2741 1491,2749 1491,2773"/>
+                    <pc:Glyph id="region0007_line0001_word0004_glyph0000">
+                        <pc:Coords points="1411,2746 1448,2746 1448,2781 1411,2781"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0004_glyph0001">
+                        <pc:Coords points="1451,2745 1490,2745 1490,2782 1451,2782"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0004_glyph0002">
+                        <pc:Coords points="1491,2735 1525,2735 1525,2781 1491,2781"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0007_line0001_word0005">
+                    <pc:Coords points="1689,2779 1692,2779 1692,2778 1696,2778 1720,2778 1720,2746 1721,2746 1721,2780 1759,2780 1759,2742 1725,2742 1721,2738 1720,2738 1720,2731 1694,2731 1691,2731 1691,2732 1687,2732 1665,2732 1665,2739 1665,2747 1665,2775 1663,2775 1663,2747 1663,2743 1659,2743 1637,2743 1633,2739 1632,2739 1629,2742 1606,2742 1602,2738 1601,2738 1601,2733 1551,2733 1549,2733 1549,2739 1549,2777 1549,2781 1553,2781 1601,2781 1601,2746 1602,2746 1602,2779 1632,2779 1632,2747 1633,2747 1633,2779 1659,2779 1663,2783 1665,2783 1669,2779"/>
+                    <pc:Glyph id="region0007_line0001_word0005_glyph0000">
+                        <pc:Coords points="1549,2733 1601,2733 1601,2781 1549,2781"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0005_glyph0001">
+                        <pc:Coords points="1602,2742 1632,2742 1632,2779 1602,2779"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0005_glyph0002">
+                        <pc:Coords points="1633,2743 1663,2743 1663,2779 1633,2779"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0005_glyph0003">
+                        <pc:Coords points="1665,2732 1692,2732 1692,2779 1665,2779"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0005_glyph0004">
+                        <pc:Coords points="1691,2731 1720,2731 1720,2778 1691,2778"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0007_line0001_word0005_glyph0005">
+                        <pc:Coords points="1721,2742 1759,2742 1759,2780 1721,2780"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.71">
+                    <pc:Unicode>erlag von S, G, Teubner in Leipzig und Berlin</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.815">
+                <pc:Unicode>V
+erlag von S, G, Teubner in Leipzig und Berlin</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0008" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1649,2847 1576,2847 1576,2880 1652,2880 1661,2880 1725,2880 1735,2880 1747,2880 1747,2869 1751,2869 1751,2880 1765,2880 1765,2851 1751,2851 1751,2861 1747,2861 1743,2865 1735,2865 1735,2848 1661,2848 1661,2847 1655,2847 1652,2844"/>
+            <pc:TextLine id="region0008_line0000">
+                <pc:AlternativeImage filename="OCR-D-DEWARP-LINE/OCR-D-DEWARP-LINE_edel_page_2_region0008_region0008_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1649,2847 1576,2847 1576,2880 1652,2880 1661,2880 1725,2880 1735,2880 1747,2880 1747,2869 1751,2869 1751,2880 1765,2880 1765,2851 1751,2851 1751,2861 1747,2861 1743,2865 1735,2865 1735,2848 1661,2848 1661,2847 1655,2847 1652,2844"/>
+                <pc:Word id="region0008_line0000_word0000">
+                    <pc:Coords points="1649,2847 1576,2847 1576,2880 1652,2880 1661,2880 1725,2880 1735,2880 1747,2880 1747,2865 1735,2865 1735,2848 1661,2848 1661,2847 1655,2847 1652,2844"/>
+                    <pc:Glyph id="region0008_line0000_word0000_glyph0000">
+                        <pc:Coords points="1576,2847 1661,2847 1661,2880 1576,2880"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0008_line0000_word0000_glyph0001">
+                        <pc:Coords points="1652,2848 1735,2848 1735,2880 1652,2880"/>
+                    </pc:Glyph>
+                    <pc:Glyph id="region0008_line0000_word0000_glyph0002">
+                        <pc:Coords points="1725,2865 1747,2865 1747,2880 1725,2880"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:Word id="region0008_line0000_word0001">
+                    <pc:Coords points="1751,2851 1765,2851 1765,2880 1751,2880"/>
+                    <pc:Glyph id="region0008_line0000_word0001_glyph0000">
+                        <pc:Coords points="1751,2851 1765,2851 1765,2880 1751,2880"/>
+                    </pc:Glyph>
+                </pc:Word>
+                <pc:TextEquiv conf="0.5">
+                    <pc:Unicode>Beli te</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.5">
+                <pc:Unicode>Beli te</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+    </pc:Page>
+</pc:PcGts>

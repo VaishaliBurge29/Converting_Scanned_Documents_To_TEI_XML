@@ -1,0 +1,42 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 1166 1654; image 'image/images/142317_page_000.tif';">
+         <div class="ocr_carea" title="bbox 132 134 994 219">
+            <p class="ocr_par" title="bbox 132 134 994 219"><span class="ocr_line" title="bbox 132 134 994 175"><span class="ocrx_word" title="bbox 132 134 576 172"></span><span class="ocrx_word" title="bbox 589 135 644 172"></span><span class="ocrx_word" title="bbox 654 135 744 172"></span><span class="ocrx_word" title="bbox 755 135 994 172"></span>BERUFSAUSBILDUNG IN DER INDUSTRIE</span><span class="ocr_line" title="bbox 414 181 713 219"><span class="ocrx_word" title="bbox 414 181 713 219"></span>Jugendlichen-Ausbildung</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 225 385 897 461">
+            <p class="ocr_par" title="bbox 225 385 897 461"><span class="ocr_line" title="bbox 225 385 897 461"><span class="ocrx_word" title="bbox 225 385 897 461"></span>Prüfungsanforderungen</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 432 488 691 521">
+            <p class="ocr_par" title="bbox 432 488 691 521"><span class="ocr_line" title="bbox 432 488 691 521"><span class="ocrx_word" title="bbox 432 490 478 521"></span><span class="ocrx_word" title="bbox 480 493 531 521"></span><span class="ocrx_word" title="bbox 531 488 691 521"></span>für den Anlernberuf</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 119 549 734 640">
+            <p class="ocr_par" title="bbox 119 549 734 640"><span class="ocr_line" title="bbox 119 549 734 640"><span class="ocrx_word" title="bbox 119 549 135 620"></span><span class="ocrx_word" title="bbox 385 570 734 640"></span>: Asphaltierer</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 469 714 653 742">
+            <p class="ocr_par" title="bbox 469 714 653 742"><span class="ocr_line" title="bbox 469 714 653 742"><span class="ocrx_word" title="bbox 469 714 593 742"></span><span class="ocrx_word" title="bbox 595 717 653 742"></span>bearbeitet vom</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 187 767 933 860">
+            <p class="ocr_par" title="bbox 187 767 933 860"><span class="ocr_line" title="bbox 187 767 933 807"><span class="ocrx_word" title="bbox 187 768 364 805"></span><span class="ocrx_word" title="bbox 365 769 411 800"></span><span class="ocrx_word" title="bbox 411 767 632 807"></span><span class="ocrx_word" title="bbox 633 772 665 800"></span><span class="ocrx_word" title="bbox 666 768 762 804"></span><span class="ocrx_word" title="bbox 763 772 817 800"></span><span class="ocrx_word" title="bbox 820 772 933 805"></span>Reichsinstitut für Berufsausbildung in Handel und Gewerbe</span><span class="ocr_line" title="bbox 218 800 902 835"><span class="ocrx_word" title="bbox 218 804 429 835"></span><span class="ocrx_word" title="bbox 429 804 469 829"></span><span class="ocrx_word" title="bbox 469 804 607 834"></span><span class="ocrx_word" title="bbox 607 804 645 829"></span><span class="ocrx_word" title="bbox 645 800 785 835"></span><span class="ocrx_word" title="bbox 784 800 902 830"></span>Gemeinschaftsorgan der Organisation der gewerblichen Wirtschaft</span><span class="ocr_line" title="bbox 393 827 723 860"><span class="ocrx_word" title="bbox 393 831 440 856"></span><span class="ocrx_word" title="bbox 440 831 479 856"></span><span class="ocrx_word" title="bbox 479 831 592 856"></span><span class="ocrx_word" title="bbox 592 827 723 860"></span>und der Deutschen Arheitsfront</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 222 969 899 1121">
+            <p class="ocr_par" title="bbox 222 969 899 1121"><span class="ocr_line" title="bbox 222 969 899 1008"><span class="ocrx_word" title="bbox 222 973 271 1001"></span><span class="ocrx_word" title="bbox 272 970 312 1001"></span><span class="ocrx_word" title="bbox 310 973 377 1008"></span><span class="ocrx_word" title="bbox 379 970 438 1001"></span><span class="ocrx_word" title="bbox 440 973 478 1000"></span><span class="ocrx_word" title="bbox 478 969 627 1001"></span><span class="ocrx_word" title="bbox 625 969 774 1001"></span><span class="ocrx_word" title="bbox 773 973 899 1001"></span>Am 27. April 1942 als industrieller Anlernberuf anerkannt</span><span class="ocr_line" title="bbox 264 1004 800 1046"><span class="ocrx_word" title="bbox 264 1004 274 1014"></span><span class="ocrx_word" title="bbox 315 1012 389 1040"></span><span class="ocrx_word" title="bbox 390 1009 431 1040"></span><span class="ocrx_word" title="bbox 433 1008 595 1046"></span><span class="ocrx_word" title="bbox 595 1008 705 1039"></span><span class="ocrx_word" title="bbox 705 1012 757 1039"></span><span class="ocrx_word" title="bbox 759 1011 800 1040"></span>durch die Reichsgruppe Industrie und die</span><span class="ocr_line" title="bbox 226 1046 891 1085"><span class="ocrx_word" title="bbox 226 1046 465 1085"></span><span class="ocrx_word" title="bbox 465 1051 509 1078"></span><span class="ocrx_word" title="bbox 508 1047 629 1082"></span><span class="ocrx_word" title="bbox 629 1051 680 1078"></span><span class="ocrx_word" title="bbox 680 1046 891 1082"></span>Arbeitsgemeinschaft der Industrie- und Handelskammern</span><span class="ocr_line" title="bbox 367 1085 747 1117"><span class="ocrx_word" title="bbox 367 1090 398 1116"></span><span class="ocrx_word" title="bbox 399 1090 443 1117"></span><span class="ocrx_word" title="bbox 443 1085 747 1117"></span>in der Reichswirtschaftskammer</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 396 1227 708 1260">
+            <p class="ocr_par" title="bbox 396 1227 708 1260"><span class="ocr_line" title="bbox 396 1227 708 1260"><span class="ocrx_word" title="bbox 396 1230 471 1260"></span><span class="ocrx_word" title="bbox 471 1233 524 1256"></span><span class="ocrx_word" title="bbox 526 1228 561 1256"></span><span class="ocrx_word" title="bbox 561 1230 653 1256"></span><span class="ocrx_word" title="bbox 654 1227 708 1256"></span>Stand vom 17. Februar 1942</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 124 1427 986 1465">
+            <p class="ocr_par" title="bbox 124 1427 986 1465"><span class="ocr_line" title="bbox 124 1427 986 1465"><span class="ocrx_word" title="bbox 124 1431 229 1465"></span><span class="ocrx_word" title="bbox 234 1431 295 1459"></span><span class="ocrx_word" title="bbox 298 1430 395 1459"></span><span class="ocrx_word" title="bbox 399 1435 459 1459"></span><span class="ocrx_word" title="bbox 464 1431 496 1459"></span><span class="ocrx_word" title="bbox 497 1430 655 1459"></span><span class="ocrx_word" title="bbox 662 1431 697 1458"></span><span class="ocrx_word" title="bbox 700 1430 818 1465"></span><span class="ocrx_word" title="bbox 821 1430 883 1458"></span><span class="ocrx_word" title="bbox 886 1428 986 1463"></span>Verlag und Druck von B.G.Teubner in Leipzig und Berlin</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 459 1510 647 1550">
+            <p class="ocr_par" title="bbox 459 1510 647 1550"><span class="ocr_line" title="bbox 459 1510 647 1550"><span class="ocrx_word" title="bbox 459 1525 540 1549"></span><span class="ocrx_word" title="bbox 544 1514 566 1546"></span><span class="ocrx_word" title="bbox 565 1510 599 1547"></span><span class="ocrx_word" title="bbox 597 1514 647 1547"></span>Beot.-Nr, P 616.11</span></p>
+         </div>
+      </div>
+   </body>
+</html>

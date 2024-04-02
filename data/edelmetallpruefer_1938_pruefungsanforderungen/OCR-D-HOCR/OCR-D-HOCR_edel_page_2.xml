@@ -1,0 +1,39 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 2132 3040; image 'image/images/edel_page_2.tiff';">
+         <div class="ocr_carea" title="bbox 319 245 1612 659">
+            <p class="ocr_par" title="bbox 319 245 1612 659"><span class="ocr_line" title="bbox 576 245 1292 414"><span class="ocrx_word" title="bbox 576 245 1292 414"></span>áúInduſtrie-</span><span class="ocr_line" title="bbox 319 458 1612 659"><span class="ocrx_word" title="bbox 319 458 1612 659"></span>Gehilfenprüfungen</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 407 925 1522 1180">
+            <p class="ocr_par" title="bbox 407 925 1522 1180"><span class="ocr_line" title="bbox 407 925 1522 1050"><span class="ocrx_word" title="bbox 407 925 1522 1050"></span>Prüfungsanforderungen</span><span class="ocr_line" title="bbox 472 1069 1451 1180"><span class="ocrx_word" title="bbox 472 1081 614 1180"></span><span class="ocrx_word" title="bbox 643 1069 1451 1179"></span>für Edelmetallprüfer</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 798 1357 1123 1410">
+            <p class="ocr_par" title="bbox 798 1357 1123 1410"><span class="ocr_line" title="bbox 798 1357 1123 1410"><span class="ocrx_word" title="bbox 798 1357 1011 1407"></span><span class="ocrx_word" title="bbox 1018 1367 1123 1407"></span>bearbeitet vom</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 286 1445 1722 1583">
+            <p class="ocr_par" title="bbox 286 1445 1722 1583"><span class="ocr_line" title="bbox 286 1445 1722 1512"><span class="ocrx_word" title="bbox 286 1447 470 1506"></span><span class="ocrx_word" title="bbox 483 1445 698 1505"></span><span class="ocrx_word" title="bbox 713 1450 791 1506"></span><span class="ocrx_word" title="bbox 804 1447 1061 1508"></span><span class="ocrx_word" title="bbox 1075 1451 1344 1509"></span><span class="ocrx_word" title="bbox 1361 1448 1564 1512"></span><span class="ocrx_word" title="bbox 1578 1449 1722 1506"></span>Deniſchen Aus\ſchuß für Techniſches Schulweſen (Datſch) E. B.</span><span class="ocr_line" title="bbox 813 1531 1116 1583"><span class="ocrx_word" title="bbox 813 1531 1116 1583"></span>Berlin NW 7</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 715 1637 1231 1876">
+            <p class="ocr_par" title="bbox 715 1637 1231 1876"><span class="ocr_line" title="bbox 790 1637 1149 1697"><span class="ocrx_word" title="bbox 790 1650 856 1686"></span><span class="ocrx_word" title="bbox 862 1637 1064 1697"></span><span class="ocrx_word" title="bbox 1073 1642 1149 1690"></span>tm Auftrage der</span><span class="ocr_line" title="bbox 715 1725 1231 1791"><span class="ocrx_word" title="bbox 715 1725 1008 1788"></span><span class="ocrx_word" title="bbox 1016 1730 1231 1791"></span>Reich8gruppe Induſtrie</span><span class="ocr_line" title="bbox 889 1825 1064 1876"><span class="ocrx_word" title="bbox 889 1828 980 1875"></span><span class="ocrx_word" title="bbox 988 1829 1064 1876"></span>und der</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 378 1916 1628 2088">
+            <p class="ocr_par" title="bbox 378 1916 1628 2088"><span class="ocr_line" title="bbox 378 1916 1628 1997"><span class="ocrx_word" title="bbox 378 1916 790 1983"></span><span class="ocrx_word" title="bbox 794 1930 872 1978"></span><span class="ocrx_word" title="bbox 879 1930 1110 1990"></span><span class="ocrx_word" title="bbox 1117 1939 1210 1987"></span><span class="ocrx_word" title="bbox 1218 1938 1628 1997"></span>Arbeitsgemeinſchaft der Induſtrie- und Handelskammern</span><span class="ocr_line" title="bbox 633 2019 1336 2088"><span class="ocrx_word" title="bbox 633 2019 684 2067"></span><span class="ocrx_word" title="bbox 693 2022 765 2070"></span><span class="ocrx_word" title="bbox 774 2022 1336 2088"></span>in der Reichswirtſchafiskammer</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 698 2360 1302 2439">
+            <p class="ocr_par" title="bbox 698 2360 1302 2439"><span class="ocr_line" title="bbox 698 2360 1302 2439"><span class="ocrx_word" title="bbox 698 2360 853 2415"></span><span class="ocrx_word" title="bbox 860 2378 955 2417"></span><span class="ocrx_word" title="bbox 965 2376 1009 2421"></span><span class="ocrx_word" title="bbox 1013 2376 1175 2439"></span><span class="ocrx_word" title="bbox 1181 2377 1302 2433"></span>(Stand vom 1, Januar 1938)</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 285 2686 1759 2790">
+            <p class="ocr_par" title="bbox 285 2686 1759 2790"><span class="ocr_line" title="bbox 285 2686 329 2733"><span class="ocrx_word" title="bbox 285 2686 329 2733"></span>V</span><span class="ocr_line" title="bbox 333 2699 1759 2790"><span class="ocrx_word" title="bbox 333 2699 480 2760"></span><span class="ocrx_word" title="bbox 505 2721 1038 2787"></span><span class="ocrx_word" title="bbox 1064 2735 1130 2783"></span><span class="ocrx_word" title="bbox 1158 2733 1386 2790"></span><span class="ocrx_word" title="bbox 1411 2735 1525 2785"></span><span class="ocrx_word" title="bbox 1549 2731 1759 2783"></span>erlag von S, G, Teubner in Leipzig und Berlin</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1576 2844 1765 2880">
+            <p class="ocr_par" title="bbox 1576 2844 1765 2880"><span class="ocr_line" title="bbox 1576 2844 1765 2880"><span class="ocrx_word" title="bbox 1576 2844 1747 2880"></span><span class="ocrx_word" title="bbox 1751 2851 1765 2880"></span>Beli te</span></p>
+         </div>
+      </div>
+   </body>
+</html>

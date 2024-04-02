@@ -1,0 +1,30 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 852 1387; image 'image/images/142806_page_1.tiff';">
+         <div class="ocr_carea" title="bbox 0 8 792 217">
+            <p class="ocr_par" title="bbox 0 8 792 217"><span class="ocr_line" title="bbox 212 8 580 100"><span class="ocrx_word" title="bbox 212 8 580 100"></span>Induſtrie-</span><span class="ocr_line" title="bbox 0 122 792 217"><span class="ocrx_word" title="bbox 0 122 792 217"></span>Facharbeiterprüfungen</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 108 343 684 483">
+            <p class="ocr_par" title="bbox 108 343 684 483"><span class="ocr_line" title="bbox 109 343 684 414"><span class="ocrx_word" title="bbox 109 343 684 414"></span>Prüfungsanforderungen</span><span class="ocr_line" title="bbox 108 423 684 483"><span class="ocrx_word" title="bbox 108 426 189 481"></span><span class="ocrx_word" title="bbox 199 423 684 483"></span>für Automateneinrichter</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 21 566 773 944">
+            <p class="ocr_par" title="bbox 21 566 773 944"><span class="ocr_line" title="bbox 310 566 484 601"><span class="ocrx_word" title="bbox 310 566 424 601"></span><span class="ocrx_word" title="bbox 428 570 484 597"></span>bearbeitet vom</span><span class="ocr_line" title="bbox 21 611 773 653"><span class="ocrx_word" title="bbox 21 613 138 650"></span><span class="ocrx_word" title="bbox 144 612 260 650"></span><span class="ocrx_word" title="bbox 265 613 308 649"></span><span class="ocrx_word" title="bbox 313 611 447 649"></span><span class="ocrx_word" title="bbox 452 612 589 648"></span><span class="ocrx_word" title="bbox 596 612 699 648"></span><span class="ocrx_word" title="bbox 703 612 773 645"></span>Deutſchen Ausſchuß für Techniſches Schulweſen (Datſch) E. B.</span><span class="ocr_line" title="bbox 315 653 479 690"><span class="ocrx_word" title="bbox 315 653 399 687"></span><span class="ocrx_word" title="bbox 404 655 453 687"></span><span class="ocrx_word" title="bbox 458 658 479 686"></span>Berlin NW 7</span><span class="ocr_line" title="bbox 298 712 495 746"><span class="ocrx_word" title="bbox 298 712 336 742"></span><span class="ocrx_word" title="bbox 341 712 448 746"></span><span class="ocrx_word" title="bbox 454 714 495 742"></span>im Auftrage der</span><span class="ocr_line" title="bbox 263 756 531 794"><span class="ocrx_word" title="bbox 263 756 417 794"></span><span class="ocrx_word" title="bbox 420 760 531 793"></span>Reichsgruppe Induſtrie</span><span class="ocr_line" title="bbox 349 805 445 838"><span class="ocrx_word" title="bbox 349 809 399 838"></span><span class="ocrx_word" title="bbox 405 809 445 838"></span>und der</span><span class="ocr_line" title="bbox 65 859 730 896"><span class="ocrx_word" title="bbox 65 859 295 896"></span><span class="ocrx_word" title="bbox 300 863 341 891"></span><span class="ocrx_word" title="bbox 346 859 465 895"></span><span class="ocrx_word" title="bbox 471 863 520 891"></span><span class="ocrx_word" title="bbox 524 861 730 895"></span>Arbeitsgemeinſchaft der Induſtrie: und Handelskammern</span><span class="ocr_line" title="bbox 211 901 579 944"><span class="ocrx_word" title="bbox 211 911 241 940"></span><span class="ocrx_word" title="bbox 245 911 287 940"></span><span class="ocrx_word" title="bbox 291 901 579 944"></span>in der Reichs8wirtſchaftskammer</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 253 1082 543 1116">
+            <p class="ocr_par" title="bbox 253 1082 543 1116"><span class="ocr_line" title="bbox 253 1082 543 1116"><span class="ocrx_word" title="bbox 253 1082 337 1116"></span><span class="ocrx_word" title="bbox 338 1087 390 1112"></span><span class="ocrx_word" title="bbox 392 1086 418 1112"></span><span class="ocrx_word" title="bbox 416 1082 479 1115"></span><span class="ocrx_word" title="bbox 480 1082 543 1115"></span>(Stand vom 1, März 1938)</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 0 1272 794 1309">
+            <p class="ocr_par" title="bbox 0 1272 794 1309"><span class="ocr_line" title="bbox 0 1272 794 1309"><span class="ocrx_word" title="bbox 0 1275 112 1309"></span><span class="ocrx_word" title="bbox 125 1278 186 1305"></span><span class="ocrx_word" title="bbox 198 1276 414 1309"></span><span class="ocrx_word" title="bbox 427 1275 464 1305"></span><span class="ocrx_word" title="bbox 475 1275 595 1309"></span><span class="ocrx_word" title="bbox 610 1276 672 1304"></span><span class="ocrx_word" title="bbox 682 1274 794 1308"></span>Verlag von B, G. Teubner in Leipzig und Berlin</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 694 1340 847 1369">
+            <p class="ocr_par" title="bbox 694 1340 847 1369"><span class="ocr_line" title="bbox 694 1340 847 1369"><span class="ocrx_word" title="bbox 694 1341 785 1369"></span><span class="ocrx_word" title="bbox 785 1340 847 1367"></span>Beſt.-Nr, 10623</span></p>
+         </div>
+      </div>
+   </body>
+</html>

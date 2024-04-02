@@ -1,0 +1,24 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 1654 2339; image 'image/images/142317_page_002.tif';">
+         <div class="ocr_carea" title="bbox 620 134 1334 366">
+            <p class="ocr_par" title="bbox 620 134 1334 366"><span class="ocr_line" title="bbox 621 134 884 171"><span class="ocrx_word" title="bbox 621 134 748 168"></span><span class="ocrx_word" title="bbox 748 142 798 165"></span><span class="ocrx_word" title="bbox 798 138 884 171"></span>Herstellen von Fugen.</span><span class="ocr_line" title="bbox 620 174 881 211"><span class="ocrx_word" title="bbox 620 174 743 211"></span><span class="ocrx_word" title="bbox 743 181 794 204"></span><span class="ocrx_word" title="bbox 795 176 881 210"></span>Vergießen von Fugen.</span><span class="ocr_line" title="bbox 622 214 1053 249"><span class="ocrx_word" title="bbox 622 217 747 249"></span><span class="ocrx_word" title="bbox 748 216 861 243"></span><span class="ocrx_word" title="bbox 862 214 1053 247"></span>Beseitigen einfacher Deckenschäden.</span><span class="ocr_line" title="bbox 622 251 1208 289"><span class="ocrx_word" title="bbox 622 254 765 289"></span><span class="ocrx_word" title="bbox 766 254 808 282"></span><span class="ocrx_word" title="bbox 811 251 892 282"></span><span class="ocrx_word" title="bbox 894 255 941 281"></span><span class="ocrx_word" title="bbox 943 251 1060 282"></span><span class="ocrx_word" title="bbox 1060 254 1208 288"></span>Nachprüfen des Profils mit einfachen Meßgeräten.</span><span class="ocr_line" title="bbox 621 289 1050 327"><span class="ocrx_word" title="bbox 621 294 762 321"></span><span class="ocrx_word" title="bbox 763 297 814 321"></span><span class="ocrx_word" title="bbox 815 293 891 321"></span><span class="ocrx_word" title="bbox 892 292 944 320"></span><span class="ocrx_word" title="bbox 945 293 1050 327"></span>Aufbrechen von Beton und Asphalt.</span><span class="ocr_line" title="bbox 621 328 1334 366"><span class="ocrx_word" title="bbox 621 329 712 366"></span><span class="ocrx_word" title="bbox 713 332 765 359"></span><span class="ocrx_word" title="bbox 766 328 935 363"></span><span class="ocrx_word" title="bbox 936 331 980 360"></span><span class="ocrx_word" title="bbox 981 328 1143 366"></span><span class="ocrx_word" title="bbox 1144 331 1196 359"></span><span class="ocrx_word" title="bbox 1197 332 1334 359"></span>Pflegen und Instandhalten der Arbeitsgeräte und Maschinen.</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 621 394 781 429">
+            <p class="ocr_par" title="bbox 621 394 781 429"><span class="ocr_line" title="bbox 621 394 781 429"><span class="ocrx_word" title="bbox 621 394 781 429"></span>Erwünschte:</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 621 439 1090 477">
+            <p class="ocr_par" title="bbox 621 439 1090 477"><span class="ocr_line" title="bbox 621 439 1090 477"><span class="ocrx_word" title="bbox 621 440 729 477"></span><span class="ocrx_word" title="bbox 730 447 780 470"></span><span class="ocrx_word" title="bbox 781 443 848 470"></span><span class="ocrx_word" title="bbox 849 442 901 470"></span><span class="ocrx_word" title="bbox 902 443 1090 477"></span>Verlegen von Teer- und Asphaltplatten.</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 622 478 940 515">
+            <p class="ocr_par" title="bbox 622 478 940 515"><span class="ocr_line" title="bbox 622 478 940 515"><span class="ocrx_word" title="bbox 622 482 770 515"></span><span class="ocrx_word" title="bbox 771 486 822 509"></span><span class="ocrx_word" title="bbox 825 478 940 513"></span>Untergießen von Schienen.</span></p>
+         </div>
+      </div>
+   </body>
+</html>

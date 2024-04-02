@@ -1,0 +1,42 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 2481 3508; image 'image/images/20240110-141903-1.tiff';">
+         <div class="ocr_carea" title="bbox 956 281 2244 593">
+            <p class="ocr_par" title="bbox 956 281 2244 593"><span class="ocr_line" title="bbox 1378 281 1813 413"><span class="ocrx_word" title="bbox 1378 281 1813 413"></span>Berufs-</span><span class="ocr_line" title="bbox 956 450 2244 593"><span class="ocrx_word" title="bbox 956 450 2244 593"></span>Eignungsanforderungen</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1264 664 1938 725">
+            <p class="ocr_par" title="bbox 1264 664 1938 725"><span class="ocr_line" title="bbox 1264 664 1938 725"><span class="ocrx_word" title="bbox 1264 664 1331 719"></span><span class="ocrx_word" title="bbox 1342 669 1415 716"></span><span class="ocrx_word" title="bbox 1427 664 1593 720"></span><span class="ocrx_word" title="bbox 1604 668 1650 717"></span><span class="ocrx_word" title="bbox 1660 671 1733 717"></span><span class="ocrx_word" title="bbox 1744 668 1938 725"></span>für den Eintritt in den Lehrberuf</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1224 784 1971 973">
+            <p class="ocr_par" title="bbox 1224 784 1971 973"><span class="ocr_line" title="bbox 1224 784 1971 891"><span class="ocrx_word" title="bbox 1224 784 1971 891"></span>Aräometerjuſtierer</span><span class="ocr_line" title="bbox 1415 901 1742 973"><span class="ocrx_word" title="bbox 1415 931 1429 944"></span><span class="ocrx_word" title="bbox 1452 901 1742 973"></span>- (Abwieger)</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1466 1071 1724 1116">
+            <p class="ocr_par" title="bbox 1466 1071 1724 1116"><span class="ocr_line" title="bbox 1466 1071 1724 1116"><span class="ocrx_word" title="bbox 1466 1071 1635 1116"></span><span class="ocrx_word" title="bbox 1646 1078 1724 1113"></span>bearbeitet vom</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1040 1147 2157 1259">
+            <p class="ocr_par" title="bbox 1040 1147 2157 1259"><span class="ocr_line" title="bbox 1040 1147 2157 1201"><span class="ocrx_word" title="bbox 1040 1147 1213 1197"></span><span class="ocrx_word" title="bbox 1224 1151 1394 1199"></span><span class="ocrx_word" title="bbox 1405 1149 1466 1199"></span><span class="ocrx_word" title="bbox 1474 1149 1672 1199"></span><span class="ocrx_word" title="bbox 1683 1150 1886 1200"></span><span class="ocrx_word" title="bbox 1899 1151 2049 1201"></span><span class="ocrx_word" title="bbox 2059 1156 2157 1200"></span>Deutſchen Aus\ſ&lt;huß für Techniſches Schulweſen (Datſch) E. V.</span><span class="ocr_line" title="bbox 1475 1212 1711 1257"><span class="ocrx_word" title="bbox 1475 1212 1596 1257"></span><span class="ocrx_word" title="bbox 1604 1217 1679 1255"></span><span class="ocrx_word" title="bbox 1684 1218 1711 1257"></span>Berlin NW 7</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1388 1305 1798 1713">
+            <p class="ocr_par" title="bbox 1388 1305 1798 1713"><span class="ocr_line" title="bbox 1444 1305 1748 1353"><span class="ocrx_word" title="bbox 1444 1305 1496 1346"></span><span class="ocrx_word" title="bbox 1504 1306 1748 1353"></span>im Einvernehmen</span><span class="ocr_line" title="bbox 1529 1368 1662 1413"><span class="ocrx_word" title="bbox 1529 1368 1593 1409"></span><span class="ocrx_word" title="bbox 1604 1370 1662 1409"></span>mit der</span><span class="ocr_line" title="bbox 1392 1453 1798 1505"><span class="ocrx_word" title="bbox 1392 1453 1566 1504"></span><span class="ocrx_word" title="bbox 1576 1458 1798 1505"></span>Deutſchen Arbeitsfront</span><span class="ocr_line" title="bbox 1566 1531 1624 1571"><span class="ocrx_word" title="bbox 1566 1531 1624 1571"></span>der</span><span class="ocr_line" title="bbox 1388 1597 1798 1649"><span class="ocrx_word" title="bbox 1388 1597 1622 1648"></span><span class="ocrx_word" title="bbox 1632 1602 1798 1649"></span>Reichsgruppe Induſtrie</span><span class="ocr_line" title="bbox 1527 1670 1667 1713"><span class="ocrx_word" title="bbox 1527 1674 1597 1713"></span><span class="ocrx_word" title="bbox 1608 1674 1667 1713"></span>und der</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1064 1729 2098 1850">
+            <p class="ocr_par" title="bbox 1064 1729 2098 1850"><span class="ocr_line" title="bbox 1064 1729 2098 1789"><span class="ocrx_word" title="bbox 1064 1729 1084 1748"></span><span class="ocrx_word" title="bbox 1093 1737 1442 1787"></span><span class="ocrx_word" title="bbox 1453 1743 1511 1781"></span><span class="ocrx_word" title="bbox 1521 1743 1703 1788"></span><span class="ocrx_word" title="bbox 1713 1745 1784 1783"></span><span class="ocrx_word" title="bbox 1794 1744 2098 1789"></span>* Arbeitsgemeinſchaft der Induſtrie- und Handelskammevrn</span><span class="ocr_line" title="bbox 1314 1799 1876 1850"><span class="ocrx_word" title="bbox 1314 1802 1357 1842"></span><span class="ocrx_word" title="bbox 1367 1802 1425 1842"></span><span class="ocrx_word" title="bbox 1437 1799 1876 1850"></span>in der Reichswirtſchaftskammer</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1333 1966 1861 2014">
+            <p class="ocr_par" title="bbox 1333 1966 1861 2014"><span class="ocr_line" title="bbox 1333 1966 1861 2014"><span class="ocrx_word" title="bbox 1333 1966 1452 2012"></span><span class="ocrx_word" title="bbox 1459 1975 1534 2008"></span><span class="ocrx_word" title="bbox 1543 1968 1593 2008"></span><span class="ocrx_word" title="bbox 1596 1971 1763 2012"></span><span class="ocrx_word" title="bbox 1771 1968 1861 2014"></span>(Stand vom 11, November 1938)</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 1004 2163 2184 2214">
+            <p class="ocr_par" title="bbox 1004 2163 2184 2214"><span class="ocr_line" title="bbox 1004 2163 2184 2214"><span class="ocrx_word" title="bbox 1004 2163 1170 2210"></span><span class="ocrx_word" title="bbox 1192 2170 1281 2205"></span><span class="ocrx_word" title="bbox 1300 2165 1350 2206"></span><span class="ocrx_word" title="bbox 1362 2166 1625 2211"></span><span class="ocrx_word" title="bbox 1643 2167 1695 2208"></span><span class="ocrx_word" title="bbox 1716 2168 1892 2214"></span><span class="ocrx_word" title="bbox 1913 2170 2002 2209"></span><span class="ocrx_word" title="bbox 2021 2166 2184 2214"></span>Verlag von B, G. Teubner in Leipzig und Berlin</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 2013 2249 2287 2329">
+            <p class="ocr_par" title="bbox 2013 2249 2287 2329"><span class="ocr_line" title="bbox 2013 2249 2287 2329"><span class="ocrx_word" title="bbox 2013 2249 2026 2322"></span><span class="ocrx_word" title="bbox 2037 2268 2170 2305"></span><span class="ocrx_word" title="bbox 2176 2269 2264 2302"></span><span class="ocrx_word" title="bbox 2274 2255 2287 2329"></span>| Beſt.-Nr. 14350 |</span></p>
+         </div>
+      </div>
+   </body>
+</html>

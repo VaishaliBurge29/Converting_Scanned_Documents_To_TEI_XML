@@ -1,0 +1,42 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="">
+      <title>OCR Output</title>
+      <meta name="description" content="OCR Output via XSLT of pageXML.">
+   </head>
+   <body>
+      <div class="ocr_page" title="bbox 0 0 1748 2481; image 'image/images/143122_page_1.tiff';">
+         <div class="ocr_carea" title="bbox 205 161 1491 307">
+            <p class="ocr_par" title="bbox 205 161 1491 307"><span class="ocr_line" title="bbox 205 161 1491 233"><span class="ocrx_word" title="bbox 205 161 873 233"></span><span class="ocrx_word" title="bbox 900 166 969 224"></span><span class="ocrx_word" title="bbox 996 169 1106 225"></span><span class="ocrx_word" title="bbox 1130 164 1491 232"></span>Berufsausbildung in der Induſtrie</span><span class="ocr_line" title="bbox 588 248 1100 307"><span class="ocrx_word" title="bbox 588 248 1100 307"></span>Sugendlichen- Ausbildung</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 364 547 1331 656">
+            <p class="ocr_par" title="bbox 364 547 1331 656"><span class="ocr_line" title="bbox 364 547 1331 656"><span class="ocrx_word" title="bbox 364 547 1331 656"></span>Prüfungsanforderungen</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 198 705 1023 764">
+            <p class="ocr_par" title="bbox 198 705 1023 764"><span class="ocr_line" title="bbox 198 705 1023 764"><span class="ocrx_word" title="bbox 198 720 214 739"></span><span class="ocrx_word" title="bbox 672 705 738 761"></span><span class="ocrx_word" title="bbox 750 710 823 757"></span><span class="ocrx_word" title="bbox 834 707 1023 764"></span>° für den Lehrberuf</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 443 820 1244 926">
+            <p class="ocr_par" title="bbox 443 820 1244 926"><span class="ocr_line" title="bbox 443 820 1244 926"><span class="ocrx_word" title="bbox 443 820 1244 926"></span>Automateneinrichter</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 722 1072 976 1113">
+            <p class="ocr_par" title="bbox 722 1072 976 1113"><span class="ocr_line" title="bbox 722 1072 976 1113"><span class="ocrx_word" title="bbox 722 1072 892 1113"></span><span class="ocrx_word" title="bbox 897 1078 976 1113"></span>bearbeitet vom</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 303 1147 1395 1199">
+            <p class="ocr_par" title="bbox 303 1147 1395 1199"><span class="ocr_line" title="bbox 303 1147 1395 1199"><span class="ocrx_word" title="bbox 303 1147 548 1197"></span><span class="ocrx_word" title="bbox 558 1148 620 1197"></span><span class="ocrx_word" title="bbox 630 1148 954 1198"></span><span class="ocrx_word" title="bbox 964 1152 1008 1193"></span><span class="ocrx_word" title="bbox 1018 1152 1148 1199"></span><span class="ocrx_word" title="bbox 1158 1154 1229 1194"></span><span class="ocrx_word" title="bbox 1241 1154 1395 1194"></span>Reichsinſtitut für Berufsausbildung in Handel und Gewerbe</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 363 1389 1336 1739">
+            <p class="ocr_par" title="bbox 363 1389 1336 1739"><span class="ocr_line" title="bbox 363 1389 1336 1441"><span class="ocrx_word" title="bbox 363 1392 431 1432"></span><span class="ocrx_word" title="bbox 443 1390 500 1432"></span><span class="ocrx_word" title="bbox 504 1392 594 1437"></span><span class="ocrx_word" title="bbox 603 1391 687 1433"></span><span class="ocrx_word" title="bbox 698 1392 759 1433"></span><span class="ocrx_word" title="bbox 767 1389 974 1439"></span><span class="ocrx_word" title="bbox 979 1394 1150 1441"></span><span class="ocrx_word" title="bbox 1159 1395 1336 1436"></span>Am 22. Juni 1937 als induſtrieller Lehrberuf anerkannt</span><span class="ocr_line" title="bbox 770 1449 924 1497"><span class="ocrx_word" title="bbox 770 1451 864 1497"></span><span class="ocrx_word" title="bbox 871 1451 924 1493"></span>durch die</span><span class="ocr_line" title="bbox 647 1506 1047 1557"><span class="ocrx_word" title="bbox 647 1506 877 1557"></span><span class="ocrx_word" title="bbox 883 1509 1047 1556"></span>Reich8gruppe Induſtrie</span><span class="ocr_line" title="bbox 781 1566 911 1613"><span class="ocrx_word" title="bbox 781 1570 852 1609"></span><span class="ocrx_word" title="bbox 858 1568 911 1609"></span>und die</span><span class="ocr_line" title="bbox 363 1621 1334 1672"><span class="ocrx_word" title="bbox 363 1621 709 1672"></span><span class="ocrx_word" title="bbox 715 1628 773 1667"></span><span class="ocrx_word" title="bbox 776 1626 953 1672"></span><span class="ocrx_word" title="bbox 955 1628 1026 1667"></span><span class="ocrx_word" title="bbox 1027 1626 1334 1672"></span>ArbeitS8gemeinſchaft der Induſtrie- und Handelskammern</span><span class="ocr_line" title="bbox 576 1684 1122 1737"><span class="ocrx_word" title="bbox 576 1687 617 1729"></span><span class="ocrx_word" title="bbox 623 1689 681 1729"></span><span class="ocrx_word" title="bbox 685 1684 1122 1737"></span>in der Reich8wirtſchaft8kammer</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 634 1895 1064 1941">
+            <p class="ocr_par" title="bbox 634 1895 1064 1941"><span class="ocr_line" title="bbox 634 1895 1064 1941"><span class="ocrx_word" title="bbox 634 1895 754 1940"></span><span class="ocrx_word" title="bbox 761 1904 836 1936"></span><span class="ocrx_word" title="bbox 841 1897 894 1936"></span><span class="ocrx_word" title="bbox 897 1895 971 1940"></span><span class="ocrx_word" title="bbox 974 1897 1064 1941"></span>(Stand vom 27. Juli 1939)</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 204 2134 1494 2186">
+            <p class="ocr_par" title="bbox 204 2134 1494 2186"><span class="ocr_line" title="bbox 204 2134 1494 2186"><span class="ocrx_word" title="bbox 204 2136 352 2183"></span><span class="ocrx_word" title="bbox 372 2138 451 2177"></span><span class="ocrx_word" title="bbox 470 2137 588 2178"></span><span class="ocrx_word" title="bbox 608 2143 686 2178"></span><span class="ocrx_word" title="bbox 707 2138 996 2182"></span><span class="ocrx_word" title="bbox 1015 2138 1063 2179"></span><span class="ocrx_word" title="bbox 1083 2139 1235 2186"></span><span class="ocrx_word" title="bbox 1253 2141 1333 2180"></span><span class="ocrx_word" title="bbox 1351 2136 1494 2184"></span>Verlag und Deu&gt; von B. G., Teubner in Leipzig und Berlin</span></p>
+         </div>
+         <div class="ocr_carea" title="bbox 203 2236 1513 2277">
+            <p class="ocr_par" title="bbox 203 2236 1513 2277"><span class="ocr_line" title="bbox 203 2236 1513 2277"><span class="ocrx_word" title="bbox 203 2236 223 2264"></span><span class="ocrx_word" title="bbox 1286 2238 1420 2277"></span><span class="ocrx_word" title="bbox 1424 2239 1461 2274"></span><span class="ocrx_word" title="bbox 1460 2239 1513 2273"></span>1 “ Beſt.-Nr. 10623</span></p>
+         </div>
+      </div>
+   </body>
+</html>
