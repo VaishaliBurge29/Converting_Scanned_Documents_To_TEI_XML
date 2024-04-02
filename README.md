@@ -13,7 +13,7 @@ This project automates the conversion of scanned historical documents into a str
 * Python: Python 3.x (Download from https://www.python.org/downloads/)
 
 ### Converting Scanned Documents to TEI XML
-For instructions tailored to your needs, you can use the documentation here detailing various processing steps within the OCR-D framework.
+For instructions tailored to your needs, you can use the documentation [here](https://github.com/VaishaliBurge29/Converting_Scanned_Documents_To_TEI_XML.git) detailing various processing steps within the OCR-D framework.
 
 ### The contents of the files include the following
 
