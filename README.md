@@ -15,7 +15,7 @@ This project automates the conversion of scanned historical documents into a str
 ### Converting Scanned Documents to TEI XML
 For instructions tailored to your needs, you can use the documentation here detailing various processing steps within the OCR-D framework.
 
-### The contents of the files include the following,
+### The contents of the files include the following
 
 1. All 24 document folders are uploaded in the `data` folder
 2. Each document folder has the processed pages after going through the processing steps by processors.
