@@ -13,4 +13,15 @@ This project automates the conversion of scanned historical documents into a str
 * Python: Python 3.x (Download from https://www.python.org/downloads/)
 
 ### Converting Scanned Documents to TEI XML
-For instructions tailored to your needs, you can use the documentation here detailing various processing steps within the OCR-D framework.
+For instructions tailored to your needs, you can use the documentation in the ´document´ folder detailing various processing steps within the OCR-D framework.
+
+### The contents of the files include the following
+
+1. All 24 document folders are uploaded in the `data` folder
+2. Each document folder has the processed pages after going through the processing steps by processors.
+3. The output folder is located inside the `data` folder, which includes
+     - Combined hOCR file 
+     - TEI XML conversion python code 
+     - TEI XML output file.
+4. In the `lib` folder you can find Python code for splitting tiff documents into individual documents and combining hOCR code is also included in the main branch.
+5. It also has our Report Document in the `documentation` folder.
