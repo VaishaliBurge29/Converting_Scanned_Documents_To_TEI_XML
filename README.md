@@ -1,3 +1,7 @@
+## Document Processing Pipeline for Historical Documents (TEI XML Output)
+
+This project automates the conversion of scanned historical documents into a structured and searchable TEI XML format, facilitating analysis and archiving. It leverages the ocrd processor suite for efficient handling of document images and incorporates a flexible approach to accommodate document variations.
+
 ## Table of Contents
 
 * [Introduction](#document-processing-pipeline-for-historical-documents-tei-xml-output)
@@ -59,14 +63,19 @@ Python: Ensure you have Python (Specify the required Python version if necessary
 
 This project doesn't require users to directly run a script. It's designed to process documents within the folders and generate TEI XML files in the output folder using the Python code provided.
 
-## Contents of Files
-
-
-1. All 24 document folders are uploaded in `data` folder
-2. Each document in the `data` folder has the processed pages after going through the processing steps by processors.
-3. The output folder is located inside the `data` folder, which includes
-     - Combined hOCR file 
-     - TEI XML conversion python code 
+#### Contents of Files
+***
+1. Data: 
+      - All 24 document folders are uploaded in `data` folder.
+      - Each document in the `data` folder has the processed pages after going through the processing steps by processors.
+      - Has Split Images. 
+2. Output:
+     - The output folder is located inside the `data` folder, which includes,
+     - Combined hOCR file.
+     - TEI XML conversion python code.
      - TEI XML output file.
-4. In `lib` folder you can find python code for splitting tiff documents into individual document and combining hocr code is also included in the main branch.
-5. It also has our Report Document in `documentation` folder.
+3. Code files: 
+      - In the `lib` folder you can find python code for splitting tiff documents into individual documents and,
+      - Combining hocr code which is included in the main branch.
+4. Documentation:
+      -  The `documentation` folder contains our Detailed Report.
