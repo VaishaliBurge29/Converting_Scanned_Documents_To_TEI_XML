@@ -1,5 +1,5 @@
 ## Table of Contents
-***
+
 * [Introduction](#document-processing-pipeline-for-historical-documents-tei-xml-output)
 * [Project Goals](#project-goals)
 * [Features](#features)
