@@ -9,8 +9,8 @@
 * [Execution](#execution)
 * [Contents of Files](#contents-of-files)
 
-#### Document Processing Pipeline for Historical Documents (TEI XML Output)
-***************************
+## Document Processing Pipeline for Historical Documents (TEI XML Output)
+
 This project automates the conversion of scanned historical documents into a structured and searchable TEI XML format, facilitating analysis and archiving. It leverages the ocrd processor suite for efficient handling of document images and incorporates a flexible approach to accommodate document variations.
 
 #### Project Goals
