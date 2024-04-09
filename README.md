@@ -13,27 +13,27 @@
 
 This project automates the conversion of scanned historical documents into a structured and searchable TEI XML format, facilitating analysis and archiving. It leverages the ocrd processor suite for efficient handling of document images and incorporates a flexible approach to accommodate document variations.
 
-#### Project Goals
+## Project Goals
 
 * Structured Output: Generate TEI XML files, an established standard for encoding historical documents.
 * Document Versatility: Handle documents with varying characteristics, employing appropriate processing steps based on their specific needs.
 * Metadata Extraction: Extract relevant metadata like title, author, date, and page numbers.
 
-#### Features
+## Features
 
 * Processes scanned documents (potentially in PDF format).
 * Performs pre-processing tasks (details to be added based on your implementation).
 * Extracts text using Optical Character Recognition (OCR).
 * Generates TEI XML files representing the document structure and content.
 
-#### Technologies
+## Technologies
 
 * Optical Character Recognition (OCR) Engine
 * Python
 * TEI XML Libraries
 * Additional Libraries (Optional): Depending on your specific implementation, mention any additional libraries used for pre-processing tasks (e.g., image manipulation), post-processing (e.g., data normalization), or other functionalities
 
-#### System Requirements and Setup
+## System Requirements and Setup
 
 * Operating System: Ubuntu or similar Linux distribution (consider WSL for Windows users: https://learn.microsoft.com/en-us/windows/wsl/)
 * Python: Python 3.x (Download from https://www.python.org/downloads/)
@@ -41,7 +41,7 @@ This project automates the conversion of scanned historical documents into a str
 - Additional libraries might be required based on the specific configuration.
 - For instructions tailored to your needs, you can use the documentation [here](https://github.com/VaishaliBurge29/Converting_Scanned_Documents_To_TEI_XML.git) detailing various processing steps within the OCR-D framework.
 
-#### Running the Project
+## Running the Project
 
 ##### Installation:
 1. Clone the Repository: git clone
@@ -55,11 +55,11 @@ Prerequisites:
      - Operating System: The pipeline is primarily developed for Ubuntu or similar Linux distributions. Instructions for other operating systems can be added if applicable (e.g., using WSL on Windows).
 Python: Ensure you have Python (Specify the required Python version if necessary) installed on your system.
 
-#### Execution
+## Execution
 
 This project doesn't require users to directly run a script. It's designed to process documents within the folders and generate TEI XML files in the output folder using the Python code provided.
 
-#### Contents of Files
+## Contents of Files
 
 
 1. All 24 document folders are uploaded in `data` folder
