@@ -79,10 +79,4 @@ This project doesn't require users to directly run a script. It's designed to pr
 4. Documentation:
       -  The `documentation` folder contains our Detailed Report.
 
-- **Tabel structure**
-| Column Header 1 | Column Header 2 | Column Header 3 |
-| Row 1, Cell 1   | Row 1, Cell 2   | Row 1, Cell 3   |
-| Row 2, Cell 1   | Row 2, Cell 2   | Row 2, Cell 3   |
-| Row 3, Cell 1   | Row 3, Cell 2   | Row 3, Cell 3   |
-
 
